@@ -5,7 +5,7 @@
   "description": "",
   "author": "lilly",
   "authorURL": "",
-  "defaultLoadOrder": 1,
+  "defaultLoadOrder": 3,
   "gameVersion": "1.1.355",
   "manifest": [
     "/Game/DLC1/Objects/Mechs/Locust/Loadout/LCT-PB_Loadout_2.uasset",

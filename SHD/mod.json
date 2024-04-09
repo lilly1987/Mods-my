@@ -1,0 +1,18 @@
+{
+   "displayName" : "SHD",
+   "version" : "1.0",
+   "buildNumber" : 2,
+   "description" : "",
+   "author" : "Lilly",
+   "authorURL" : "",
+   "defaultLoadOrder" : 0,
+   "gameVersion" : "1.1.0",
+   "manifest" : [
+      "/Game/Objects/Mechs/Shadowhawk/Loadout/SHD-GD_Loadout_2.uasset",
+      "/Game/Objects/Mechs/Shadowhawk/MDA/SHD-GD_MDA_2.uasset",
+      "/Game/Objects/Mechs/Shadowhawk/UnitCard/SHD-GD_UnitCard_2.uasset"
+   ],
+   "steamPublishedFileId" : 0,
+   "steamLastSubmittedBuildNumber" : 0,
+   "steamModVisibility" : "Private"
+}
