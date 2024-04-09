@@ -1,0 +1,18 @@
+{
+   "displayName" : "LCT",
+   "version" : "1.0",
+   "buildNumber" : 1,
+   "description" : "",
+   "author" : "lilly",
+   "authorURL" : "",
+   "defaultLoadOrder" : 0,
+   "gameVersion" : "1.1.0",
+   "manifest" : [
+      "/Game/DLC1/Objects/Mechs/Locust/Loadout/LCT-PB_Loadout_2.uasset",
+      "/Game/DLC1/Objects/Mechs/Locust/MDA/LCT-PB_MDA_2.uasset",
+      "/Game/DLC1/Objects/Mechs/Locust/UnitCard/LCT-PB_UnitCard_2.uasset"
+   ],
+   "steamPublishedFileId" : 0,
+   "steamLastSubmittedBuildNumber" : 0,
+   "steamModVisibility" : "Private"
+}
