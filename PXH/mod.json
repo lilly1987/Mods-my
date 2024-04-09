@@ -1,0 +1,19 @@
+{
+  "displayName": "PXH",
+  "version": "1.0",
+  "buildNumber": 1,
+  "description": "",
+  "author": "Lilly",
+  "authorURL": "",
+  "defaultLoadOrder": 1,
+  "gameVersion": "1.1.355",
+  "manifest": [
+    "/Game/DLC1/Objects/Mechs/Phoenixhawk/Loadout/PXH-KB_Loadout_2.uasset",
+    "/Game/DLC1/Objects/Mechs/Phoenixhawk/MDA/PXH-KB_MDA_2.uasset",
+    "/Game/DLC1/Objects/Mechs/Phoenixhawk/UnitCard/PXH-KB_UnitCard_2.uasset"
+  ],
+  "steamPublishedFileId": 0,
+  "steamLastSubmittedBuildNumber": 0,
+  "steamModVisibility": "Private",
+  "bEnabled": true
+}
