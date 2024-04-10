@@ -1,0 +1,5 @@
+"S:/games/MechWarrior5Editor/MW5Mercs/Plugins/lilly/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/lilly/Content/*" "../../../MW5Mercs/Plugins/lilly/Content/"
+"S:/games/MechWarrior5Editor/MW5Mercs/Plugins/lilly/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/lilly/ModOverride/*" "../../../MW5Mercs/Content/"
+"S:/games/MechWarrior5Editor/MW5Mercs/Plugins/lilly/ModOverride/WwiseAudio/*" "../../../MW5Mercs/Content/WwiseAudio/"
+"S:/games/MechWarrior5Editor/MW5Mercs/Plugins/lilly/Config/*" "../../../MW5Mercs/Config/"
+"S:/games/MechWarrior5Editor/MW5Mercs/Plugins/lilly/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/lilly/AssetRegistry.bin" "../../../MW5Mercs/Plugins/lilly/"

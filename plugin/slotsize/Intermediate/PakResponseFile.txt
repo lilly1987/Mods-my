@@ -1,0 +1,5 @@
+"S:/games/MechWarrior5Editor/MW5Mercs/Plugins/slotsize/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/slotsize/Content/*" "../../../MW5Mercs/Plugins/slotsize/Content/"
+"S:/games/MechWarrior5Editor/MW5Mercs/Plugins/slotsize/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/slotsize/ModOverride/*" "../../../MW5Mercs/Content/"
+"S:/games/MechWarrior5Editor/MW5Mercs/Plugins/slotsize/ModOverride/WwiseAudio/*" "../../../MW5Mercs/Content/WwiseAudio/"
+"S:/games/MechWarrior5Editor/MW5Mercs/Plugins/slotsize/Config/*" "../../../MW5Mercs/Config/"
+"S:/games/MechWarrior5Editor/MW5Mercs/Plugins/slotsize/Saved/Cooked/WindowsNoEditor/MW5Mercs/Plugins/slotsize/AssetRegistry.bin" "../../../MW5Mercs/Plugins/slotsize/"
