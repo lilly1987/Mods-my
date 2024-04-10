@@ -1,13 +1,15 @@
 {
-  "displayName": "BNC",
+  "displayName": "fs9",
   "version": "1.0",
-  "buildNumber": 5,
+  "buildNumber": 1,
   "description": "",
-  "author": "Lilly",
+  "author": "lilly",
   "authorURL": "",
-  "defaultLoadOrder": 1,
+  "defaultLoadOrder": 2,
   "gameVersion": "1.1.355",
-  "manifest": [],
+  "manifest": [
+    "/Game/Objects/Mechs/_common/Config/MechHealthStats_2.uasset"
+  ],
   "steamPublishedFileId": 0,
   "steamLastSubmittedBuildNumber": 0,
   "steamModVisibility": "Private",

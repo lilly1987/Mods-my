@@ -1,0 +1,28 @@
+{
+   "displayName" : "slotsize",
+   "version" : "1.0",
+   "buildNumber" : 1,
+   "description" : "",
+   "author" : "lilly",
+   "authorURL" : "",
+   "defaultLoadOrder" : 0,
+   "gameVersion" : "1.1.0",
+   "manifest" : [
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/AC10_Auto_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/AC10_Burst_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/AC10_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/AC20_Auto_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/AC20_Burst_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/AC20_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/AC5_Auto_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/AC5_Burst_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/AC5_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/HeavyRifle_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Ballistic/UltraAC5_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Missile/LRM20_Artemis_SlotType.uasset",
+      "/Game/Objects/Mechs/_common/SlotTypes/WeaponTypeSlots/Missile/LRM20_Stream_SlotType.uasset"
+   ],
+   "steamPublishedFileId" : 0,
+   "steamLastSubmittedBuildNumber" : 0,
+   "steamModVisibility" : "Private"
+}

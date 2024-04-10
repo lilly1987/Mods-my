@@ -1,14 +1,16 @@
 {
-   "displayName" : "LCT",
+   "displayName" : "CPLT",
    "version" : "1.0",
-   "buildNumber" : 2,
+   "buildNumber" : 1,
    "description" : "",
    "author" : "lilly",
    "authorURL" : "",
    "defaultLoadOrder" : 0,
    "gameVersion" : "1.1.0",
    "manifest" : [
-      
+      "/Game/Objects/Mechs/Catapult/Loadout/CPLT-J_Loadout_2.uasset",
+      "/Game/Objects/Mechs/Catapult/MDA/CPLT-J_MDA_2.uasset",
+      "/Game/Objects/Mechs/Catapult/UnitCard/CPLT-J_UnitCard_2.uasset"
    ],
    "steamPublishedFileId" : 0,
    "steamLastSubmittedBuildNumber" : 0,

@@ -1,0 +1,19 @@
+{
+  "displayName": "MAD",
+  "version": "1.0",
+  "buildNumber": 1,
+  "description": "",
+  "author": "lilly",
+  "authorURL": "",
+  "defaultLoadOrder": 7,
+  "gameVersion": "1.1.355",
+  "manifest": [
+    "/Game/DLC4/Objects/Mechs/Marauder/Loadout/MAD-BH_Loadout_2.uasset",
+    "/Game/DLC4/Objects/Mechs/Marauder/MDA/MAD-BH_MDA_2.uasset",
+    "/Game/DLC4/Objects/Mechs/Marauder/UnitCard/MAD-BH_UnitCard_2.uasset"
+  ],
+  "steamPublishedFileId": 0,
+  "steamLastSubmittedBuildNumber": 0,
+  "steamModVisibility": "Private",
+  "bEnabled": true
+}

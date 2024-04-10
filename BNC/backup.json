@@ -1,0 +1,18 @@
+{
+   "displayName" : "BNC",
+   "version" : "1.0",
+   "buildNumber" : 1,
+   "description" : "",
+   "author" : "Lilly",
+   "authorURL" : "",
+   "defaultLoadOrder" : 0,
+   "gameVersion" : "1.1.0",
+   "manifest" : [
+      "/Game/Objects/Mechs/Banshee/Loadout/BNC-SR_Loadout_2.uasset",
+      "/Game/Objects/Mechs/Banshee/MDA/BNC-SR_MDA_2.uasset",
+      "/Game/Objects/Mechs/Banshee/UnitCard/BNC-SR_UnitCard_2.uasset"
+   ],
+   "steamPublishedFileId" : 0,
+   "steamLastSubmittedBuildNumber" : 0,
+   "steamModVisibility" : "Private"
+}

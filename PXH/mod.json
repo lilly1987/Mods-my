@@ -5,7 +5,7 @@
   "description": "",
   "author": "Lilly",
   "authorURL": "",
-  "defaultLoadOrder": 3,
+  "defaultLoadOrder": 10,
   "gameVersion": "1.1.355",
   "manifest": [
     "/Game/DLC1/Objects/Mechs/Phoenixhawk/Loadout/PXH-KB_Loadout_2.uasset",

@@ -1,11 +1,11 @@
 {
   "displayName": "SHD",
   "version": "1.0",
-  "buildNumber": 3,
+  "buildNumber": 5,
   "description": "",
   "author": "Lilly",
   "authorURL": "",
-  "defaultLoadOrder": 2,
+  "defaultLoadOrder": 9,
   "gameVersion": "1.1.355",
   "manifest": [
     "/Game/Objects/Mechs/Shadowhawk/Loadout/SHD-GD_Loadout_2.uasset",
