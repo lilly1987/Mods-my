@@ -1,16 +1,16 @@
 {
-  "displayName": "SHD",
+  "displayName": "BNC",
   "version": "1.0",
-  "buildNumber": 3,
+  "buildNumber": 1,
   "description": "",
   "author": "Lilly",
   "authorURL": "",
   "defaultLoadOrder": 2,
   "gameVersion": "1.1.355",
   "manifest": [
-    "/Game/Objects/Mechs/Shadowhawk/Loadout/SHD-GD_Loadout_2.uasset",
-    "/Game/Objects/Mechs/Shadowhawk/MDA/SHD-GD_MDA_2.uasset",
-    "/Game/Objects/Mechs/Shadowhawk/UnitCard/SHD-GD_UnitCard_2.uasset"
+    "/Game/Objects/Mechs/Banshee/Loadout/BNC-SR_Loadout_2.uasset",
+    "/Game/Objects/Mechs/Banshee/MDA/BNC-SR_MDA_2.uasset",
+    "/Game/Objects/Mechs/Banshee/UnitCard/BNC-SR_UnitCard_2.uasset"
   ],
   "steamPublishedFileId": 0,
   "steamLastSubmittedBuildNumber": 0,
