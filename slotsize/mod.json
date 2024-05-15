@@ -5,8 +5,8 @@
   "description": "",
   "author": "lilly",
   "authorURL": "",
-  "defaultLoadOrder": 9,
-  "gameVersion": "1.1.355",
+  "defaultLoadOrder": 16,
+  "gameVersion": "1.1.361",
   "manifest": [
     "/Game/DLC1/Objects/Mechs/_common/SlotTypes/BAP_SlotType.uasset",
     "/Game/DLC1/Objects/Mechs/_common/SlotTypes/ECM_SlotType.uasset",
@@ -78,6 +78,5 @@
   ],
   "steamPublishedFileId": 0,
   "steamLastSubmittedBuildNumber": 0,
-  "steamModVisibility": "Private",
-  "bEnabled": true
+  "steamModVisibility": "Private"
 }
