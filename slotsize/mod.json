@@ -5,7 +5,7 @@
   "description": "",
   "author": "lilly",
   "authorURL": "",
-  "defaultLoadOrder": 16,
+  "defaultLoadOrder": 17,
   "gameVersion": "1.1.361",
   "manifest": [
     "/Game/DLC1/Objects/Mechs/_common/SlotTypes/BAP_SlotType.uasset",
