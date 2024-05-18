@@ -1,0 +1,351 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/DLC1/Objects/Mechs/Vulcan/Model/Vulcan_MDL.Vulcan_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "VL-BL",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "VL-BL",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 40,
+			"baseTons": 15,
+			"cBillBaseValue": 100000,
+			"cBillUpkeepCost": 30000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 330000,
+					"centerTorso": 768000,
+					"sideTorso": 80000,
+					"arm": 10000,
+					"leg": 14000
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 39.599998474121094,
+			"baseCoolingRate": 0.95999997854232788
+		},
+		"moveStats":
+		{
+			"topSpeed": 2700,
+			"minSpeed": 400,
+			"reverseTopSpeed": 1798.199951171875,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 150.68795776367188,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 189,
+				"pitch": 118.12999725341797
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -130,
+					"pitch": -40
+				},
+				"high":
+				{
+					"yaw": 130,
+					"pitch": 40
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 472.5,
+				"pitch": 472.5
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -45,
+					"pitch": -45
+				},
+				"high":
+				{
+					"yaw": 45,
+					"pitch": 45
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "standardstructuretype",
+				"heatSinkType": "standardheatsinktype",
+				"bArtemis": false,
+				"engineRating": 240,
+				"bXLEngine": true
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/MachineGun_Standard_AmmoEquipment.MachineGun_Standard_AmmoEquipment"
+					],
+					"jumpJets": 2
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/MachineGun_Standard_AmmoEquipment.MachineGun_Standard_AmmoEquipment"
+					],
+					"jumpJets": 2
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 24,
+			"leftTorso": 20,
+			"rightTorso": 20,
+			"leftArm": 12,
+			"rightArm": 12,
+			"leftLeg": 20,
+			"rightLeg": 20
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 48,
+			"leftTorso": 40,
+			"rightTorso": 40,
+			"leftArm": 24,
+			"rightArm": 24,
+			"leftLeg": 40,
+			"rightLeg": 40
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Medium.Vulcan.VL-BL"
+	},
+	"chassisFullName": "Vulcan",
+	"variantName": "VL-BL",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:VL-BL_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Vulcan_Icon_UIX.Vulcan_Icon_UIX",
+	"targetComponent": "/Game/DLC1/Objects/Mechs/Vulcan/Target/Vulcan_Target.Vulcan_Target_C",
+	"description": "An infamous butcher that would hunt and kill infantry platoons down to the last person with her aptly named 'Mech, Bloodlust, Lieutenant Sondra Stoverston served as one of the best medium lance commanders within House Steiner's 20th Arcturan Guards. The trail of bodies left in Bloodlust's wake ensured that its reputation for dealing death struck fear into anyone who would dared to oppose the Arcturan Guards.",
+	"selectedWeaponHardPoints": [
+		"Head_MH1_Missile4_srm4",
+		"Torso_Left_MH1_srm4",
+		"Torso_Center_MH1_srm4",
+		"Torso_Right_MH1_srm4",
+		"Forearm_Right_EH2_smalllaser",
+		"Forearm_Right_BH1_machinegun",
+		"Forearm_Left_BH1_machinegun",
+		"Forearm_Left_BH2_machinegun",
+		"Arm_Left_LowerArm_Actuator_Melee",
+		"Arm_Right_LowerArm_Actuator_Melee"
+	],
+	"blankWeaponHardPoints": [],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:StandardStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Single"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "Equipment.JumpJets.Class4"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 0,
+					"CenterTorso": 1,
+					"LeftTorso": 6,
+					"LeftArm": 7,
+					"LeftLeg": 2,
+					"RightTorso": 6,
+					"RightArm": 7,
+					"RightLeg": 2
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:JumpJetClass4_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 0,
+					"CenterTorso": 0,
+					"LeftTorso": 2,
+					"RightTorso": 2,
+					"LeftArm": 0,
+					"RightArm": 0,
+					"LeftLeg": 0,
+					"RightLeg": 0
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 9
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:VL_240_XL_Std_RefitCosts"
+	},
+	"engineRating": 240,
+	"bXLEngine": true,
+	"baseChassisCost": 5490800,
+	"salvageShareCost": 20,
+	"bIsHeroMech": true,
+	"bIsDefaultVariant": false
+}

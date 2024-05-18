@@ -1,0 +1,313 @@
+{
+    "mechModel": "MWMechModelDataAsset'/Game/DLC1/Objects/Mechs/Corsair/Model/Corsair_MDL.Corsair_MDL'",
+    "bReadFromFileOnSave": true,
+    "mechStats": {
+        "keyName": "COR-XT1",
+        "table": "DataTable'/Lilly2/Stats/MechStats_Lilly.MechStats_Lilly'"
+    },
+    "healthStats": {
+        "keyName": "COR-XT1",
+        "table": "DataTable'/Lilly2/Stats/MechHealthStats_Lilly.MechHealthStats_Lilly'"
+    },
+    "mechDataStats": {
+        "baseStats": {
+            "tons": 95,
+            "baseTons": -2000,
+            "cBillBaseValue": 100000,
+            "cBillUpkeepCost": 70000,
+            "repairData": {
+                "costPerArmorPoint": 200,
+                "costPerStructurePoint": 400,
+                "partReplacementCost": {
+                    "head": 440000,
+                    "centerTorso": 2166000,
+                    "sideTorso": 190000,
+                    "arm": 23750,
+                    "leg": 33250
+                }
+            },
+            "refitCosts": {
+                "id": ""
+            },
+            "baseHeatCapacity": 40,
+            "baseCoolingRate": 1
+        },
+        "moveStats": {
+            "topSpeed": 1350,
+            "minSpeed": 400,
+            "reverseTopSpeed": 899.0999755859375,
+            "accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+            "decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+            "slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+            "turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+            "turnSpeed": 57.295799255371094,
+            "jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+            "jumpJetLandingRecoveryCurve": "None",
+            "fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+        },
+        "torsoStats": {
+            "torsoTwistRate": {
+                "yaw": 72,
+                "pitch": 45
+            },
+            "torsoTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -95,
+                    "pitch": -30
+                },
+                "high": {
+                    "yaw": 95,
+                    "pitch": 30
+                }
+            },
+            "armTwistRate": {
+                "yaw": 180,
+                "pitch": 180
+            },
+            "armTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -12.5,
+                    "pitch": -25
+                },
+                "high": {
+                    "yaw": 12.5,
+                    "pitch": 25
+                }
+            }
+        },
+        "powerStats": {
+            "powerInitializationTime": 8,
+            "powerUpTime": 3,
+            "powerDownTime": 3,
+            "torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+            "torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+            "armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+            "armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+            "legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+            "legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+        },
+        "mechImportData": {
+            "baseMechInformation": {
+                "armorType": "standardarmortype",
+                "structureType": "standardstructuretype",
+                "heatSinkType": "doubleheatsinktype",
+                "bArtemis": false,
+                "engineRating": 285,
+                "bXLEngine": true
+            },
+            "componentInformation": {
+                "head": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "centerTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 1,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/HeavyRifle_AmmoEquipment.HeavyRifle_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "leftTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 1,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LargeChemLaser_AmmoEquipment.LargeChemLaser_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LargeChemLaser_AmmoEquipment.LargeChemLaser_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "rightTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/HeavyRifle_AmmoEquipment.HeavyRifle_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "leftArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 2,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/AC20_Standard_AmmoEquipment.AC20_Standard_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/AC20_Standard_AmmoEquipment.AC20_Standard_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "leftLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LargeChemLaser_AmmoEquipment.LargeChemLaser_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LargeChemLaser_AmmoEquipment.LargeChemLaser_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "rightLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/HeavyRifle_AmmoEquipment.HeavyRifle_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/HeavyRifle_AmmoEquipment.HeavyRifle_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                }
+            }
+        }
+    },
+    "healthDataStats": {
+        "maxStructure": {
+            "head": 15,
+            "centerTorso": 60,
+            "leftTorso": 40,
+            "rightTorso": 40,
+            "leftArm": 32,
+            "rightArm": 32,
+            "leftLeg": 40,
+            "rightLeg": 40
+        },
+        "maxArmor": {
+            "head": 30,
+            "centerTorso": 120,
+            "leftTorso": 80,
+            "rightTorso": 80,
+            "leftArm": 64,
+            "rightArm": 64,
+            "leftLeg": 80,
+            "rightLeg": 80
+        }
+    },
+    "mechType": {
+        "tagName": "Mech.Assault.Corsair.COR-XT1"
+    },
+    "chassisFullName": "Corsair",
+    "variantName": "COR-XT1_Lilly",
+    "defaultMech": {
+        "id": "MWMechLoadoutAsset:COR-XT1_Loadout_Lilly"
+    },
+    "mechTexture": "/Game/UI/Textures/Battlemechs/Corsair_Icon_UIX.Corsair_Icon_UIX",
+    "targetComponent": "/Game/DLC1/Objects/Mechs/Corsair/Target/Corsair_Target.Corsair_Target_C",
+    "description": "Inspired by the popularity of The Lazarus 'Mech, small-scale shops around Solaris seized onto the idea of these makeshift machines, enamored with their potential for arena combat. These outfits began producing a few of these machines in small batches, standardizing a collection of source parts from components readily available on Solaris.These \"FrankenMechs\" are rare and far from being standardized enough for the heavy hitters to manufacture at scale.",
+    "selectedWeaponHardPoints": [
+        "Forearm_Left_BH1_autocannon2",
+        "Forearm_Left_BH2_autocannon2",
+        "Forearm_Left_BH3_autocannon2",
+        "Torso_Left_MH1_srm2",
+        "Arm_Left_Hand_Actuator_Melee",
+        "Torso_Center_MH1_srm4",
+        "Torso_Right_MH1_srm4",
+        "Head_EH1_Laser_mediumlaser",
+        "Torso_Right_BH1_ultraautocannon5",
+        "Upperarm_Right_EH1_largelaser"
+    ],
+    "blankWeaponHardPoints": [
+        "Torso_Left_EB2_blank",
+        "Torso_Right_MB1_blank"
+    ],
+    "bRecalculateFreeSlotsOnSave": true,
+    "equipmentAllocation": {
+        "armorDataAssetId": {
+            "id": "MWArmorDataAsset:StandardArmor"
+        },
+        "structureDataAssetId": {
+            "id": "MWStructureDataAsset:EndoSteelStructure"
+        },
+        "allowedHeatSinkType": {
+            "tagName": "Equipment.HeatSinks.Double"
+        },
+        "allowedJumpJetType": {
+            "tagName": "None"
+        },
+        "slotData": [
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:General_SlotType"
+                },
+                "slotCounts": {
+                    "Head": 0,
+                    "CenterTorso": 1,
+                    "LeftTorso": 8,
+                    "LeftArm": 5,
+                    "LeftLeg": 2,
+                    "RightTorso": 4,
+                    "RightArm": 8,
+                    "RightLeg": 2
+                }
+            },
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+                },
+                "slotCounts": {
+                    "CenterTorso": 1
+                }
+            }
+        ],
+        "internalEquipment": [
+            "LifeSupport",
+            "Sensors",
+            "Cockpit",
+            "Gyro",
+            "LeftArm_Shoulder",
+            "LeftArm_UpperActuator",
+            "RightArm_Shoulder",
+            "RightArm_UpperActuator",
+            "LeftLeg_Hip",
+            "LeftLeg_UpperActuator",
+            "LeftLeg_LowerActuator",
+            "LeftLeg_FootActuator",
+            "RightLeg_Hip",
+            "RightLeg_UpperActuator",
+            "RightLeg_LowerActuator",
+            "RightLeg_FootActuator"
+        ],
+        "totalTraitSlots": 100
+    },
+    "refitCosts": {
+        "id": "MWMechRefitCostsDataAsset:COR_285_XL_RefitCosts"
+    },
+    "engineRating": 285,
+    "bXLEngine": true,
+    "baseChassisCost": 17642626,
+    "salvageShareCost": 44,
+    "bIsHeroMech": false,
+    "bIsDefaultVariant": false
+}

@@ -1,0 +1,285 @@
+{
+    "mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Cicada/Model/Cicada_MDL.Cicada_MDL'",
+    "bReadFromFileOnSave": true,
+    "mechStats": {
+        "keyName": "CDA-2B",
+        "table": "DataTable'/Lilly2/Stats/MechStats_Lilly.MechStats_Lilly'"
+    },
+    "healthStats": {
+        "keyName": "CDA-2B",
+        "table": "DataTable'/Lilly2/Stats/MechHealthStats_Lilly.MechHealthStats_Lilly'"
+    },
+    "mechDataStats": {
+        "baseStats": {
+            "tons": 40,
+            "baseTons": -2000,
+            "cBillBaseValue": 10000,
+            "cBillUpkeepCost": 30000,
+            "repairData": {
+                "costPerArmorPoint": 200,
+                "costPerStructurePoint": 400,
+                "partReplacementCost": {
+                    "head": 330000,
+                    "centerTorso": 1024000,
+                    "sideTorso": 80000,
+                    "arm": 10000,
+                    "leg": 14000
+                }
+            },
+            "refitCosts": {
+                "id": ""
+            },
+            "baseHeatCapacity": 40,
+            "baseCoolingRate": 1
+        },
+        "moveStats": {
+            "topSpeed": 3600,
+            "minSpeed": 400,
+            "reverseTopSpeed": 2397.60009765625,
+            "accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+            "decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+            "slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+            "turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+            "turnSpeed": 132.35330200195312,
+            "jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+            "jumpJetLandingRecoveryCurve": "None",
+            "fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+        },
+        "torsoStats": {
+            "torsoTwistRate": {
+                "yaw": 166.5,
+                "pitch": 104.05999755859375
+            },
+            "torsoTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -125,
+                    "pitch": -40
+                },
+                "high": {
+                    "yaw": 125,
+                    "pitch": 40
+                }
+            },
+            "armTwistRate": {
+                "yaw": 416.25,
+                "pitch": 416.25
+            },
+            "armTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": 0,
+                    "pitch": -30
+                },
+                "high": {
+                    "yaw": 0,
+                    "pitch": 30
+                }
+            }
+        },
+        "powerStats": {
+            "powerInitializationTime": 8,
+            "powerUpTime": 3,
+            "powerDownTime": 3,
+            "torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+            "torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+            "armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+            "armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+            "legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+            "legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+        },
+        "mechImportData": {
+            "baseMechInformation": {
+                "armorType": "standardarmortype",
+                "structureType": "standardstructuretype",
+                "heatSinkType": "standardheatsinktype",
+                "bArtemis": false,
+                "engineRating": 320,
+                "bXLEngine": false
+            },
+            "componentInformation": {
+                "head": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "centerTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                }
+            }
+        }
+    },
+    "healthDataStats": {
+        "maxStructure": {
+            "head": 15,
+            "centerTorso": 26,
+            "leftTorso": 22,
+            "rightTorso": 22,
+            "leftArm": 9,
+            "rightArm": 9,
+            "leftLeg": 20,
+            "rightLeg": 20
+        },
+        "maxArmor": {
+            "head": 30,
+            "centerTorso": 52,
+            "leftTorso": 44,
+            "rightTorso": 44,
+            "leftArm": 18,
+            "rightArm": 18,
+            "leftLeg": 40,
+            "rightLeg": 40
+        }
+    },
+    "mechType": {
+        "tagName": "Mech.Medium.Cicada.CDA-2B"
+    },
+    "chassisFullName": "Cicada",
+    "variantName": "CDA-2B_Lilly",
+    "defaultMech": {
+        "id": "MWMechLoadoutAsset:CDA-2B_Loadout_Lilly"
+    },
+    "mechTexture": "/Game/UI/Textures/Battlemechs/Cicada_Icon_UIX.Cicada_Icon_UIX",
+    "targetComponent": "/Game/Objects/Mechs/Cicada/Target/Cicada_Target.Cicada_Target_C",
+    "description": "The original Cicada was designed by a small firm, HartfordCo, whose previous manufacturing experience had been confined to communications and targeting systems. Designed as a supplement or replacement for the popular Locust \u2019Mech, the Cicada found limited use by the Star League after its introduction in 2740. Although it was more expensive than the Locust, its increased mass gave it advantages that the Star League found useful. The Cicada\u2019s prime assets are its speed and its lack of ammunition concerns.  Unfortunately, it only carries the armor of a 'Mech half its size.",
+    "selectedWeaponHardPoints": [
+        "Torso_Center_EH1_flamer",
+        "Forearm_Right_EH1_mediumlaser",
+        "Forearm_Left_EH1_mediumlaser"
+    ],
+    "blankWeaponHardPoints": [],
+    "bRecalculateFreeSlotsOnSave": true,
+    "equipmentAllocation": {
+        "armorDataAssetId": {
+            "id": "MWArmorDataAsset:StandardArmor"
+        },
+        "structureDataAssetId": {
+            "id": "MWStructureDataAsset:StandardStructure"
+        },
+        "allowedHeatSinkType": {
+            "tagName": "Equipment.HeatSinks.Single"
+        },
+        "allowedJumpJetType": {
+            "tagName": "None"
+        },
+        "slotData": [
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:General_SlotType"
+                },
+                "slotCounts": {
+                    "Head": 1,
+                    "CenterTorso": 1,
+                    "LeftTorso": 12,
+                    "LeftArm": 9,
+                    "LeftLeg": 2,
+                    "RightTorso": 12,
+                    "RightArm": 9,
+                    "RightLeg": 2
+                }
+            },
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+                },
+                "slotCounts": {
+                    "CenterTorso": 2
+                }
+            }
+        ],
+        "internalEquipment": [
+            "LifeSupport",
+            "Sensors",
+            "Cockpit",
+            "Gyro",
+            "LeftArm_Shoulder",
+            "LeftArm_UpperActuator",
+            "RightArm_Shoulder",
+            "RightArm_UpperActuator",
+            "LeftLeg_Hip",
+            "LeftLeg_UpperActuator",
+            "LeftLeg_LowerActuator",
+            "LeftLeg_FootActuator",
+            "RightLeg_Hip",
+            "RightLeg_UpperActuator",
+            "RightLeg_LowerActuator",
+            "RightLeg_FootActuator"
+        ],
+        "totalTraitSlots": 100
+    },
+    "refitCosts": {
+        "id": "MWMechRefitCostsDataAsset:CDA_320_Std_RefitCosts"
+    },
+    "engineRating": 320,
+    "bXLEngine": false,
+    "baseChassisCost": 3521467,
+    "salvageShareCost": 18,
+    "bIsHeroMech": false,
+    "bIsDefaultVariant": false
+}

@@ -1,0 +1,335 @@
+{
+    "mechDataAssetId": {
+        "id": "MWMechDataAsset:HCT-5S_MDA_Lilly"
+    },
+    "customName": "",
+    "skinCustomization": {
+        "mechSkinAssetId": {
+            "id": "MWUnitSkinAsset:Hatchetman_Default_SKN"
+        },
+        "customMechSkinId": "None",
+        "bPrimaryColorSet": false,
+        "primaryColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+        },
+        "bSecondaryColorSet": false,
+        "secondaryColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+        },
+        "bTertiaryColorSet": false,
+        "tertiaryColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+        }
+    },
+    "currentStructure": {
+        "head": 15,
+        "centerTorso": 28,
+        "leftTorso": 22,
+        "rightTorso": 22,
+        "leftArm": 14,
+        "rightArm": 14,
+        "leftLeg": 22,
+        "rightLeg": 22
+    },
+    "currentArmor": {
+        "head": 18,
+        "centerTorso": 42,
+        "leftTorso": 32,
+        "rightTorso": 32,
+        "leftArm": 28,
+        "rightArm": 28,
+        "leftLeg": 44,
+        "rightLeg": 44
+    },
+    "currentRearArmor": {
+        "centerTorsoRear": 12,
+        "leftTorsoRear": 12,
+        "rightTorsoRear": 12
+    },
+    "installedArmor": {
+        "head": 18,
+        "centerTorso": 42,
+        "leftTorso": 32,
+        "rightTorso": 32,
+        "leftArm": 28,
+        "rightArm": 28,
+        "leftLeg": 44,
+        "rightLeg": 44
+    },
+    "installedRearArmor": {
+        "centerTorsoRear": 12,
+        "leftTorsoRear": 12,
+        "rightTorsoRear": 12
+    },
+    "installedWeapons": [
+        {
+            "hardpointSlotId": "Torso_Left_EH1_mediumpulselaser",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWTraceWeaponDataAsset:Mediumpulselaser"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Torso_Right_BH1_lbxautocannon10",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWProjectileWeaponDataAsset:Lbxautocannon10"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Forearm_Right_EH1_mediumpulselaser",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWTraceWeaponDataAsset:Mediumpulselaser"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Arm_Right_Medium_MeleeWeapon",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWMeleeWeaponDataAsset:Hatchet_Medium"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Forearm_Left_EH1_mediumpulselaser",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWTraceWeaponDataAsset:Mediumpulselaser"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Arm_Left_Hand_Actuator_Melee",
+            "weaponData": {
+                "weaponId": {
+                    "id": ""
+                },
+                "healthState": "Healthy"
+            }
+        }
+    ],
+    "weaponGroupInfo": {
+        "weaponGroups": [
+            {
+                "hardpointSlotId": "Torso_Left_EH1_mediumpulselaser",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": false,
+                "bWeaponGroup3": true,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Torso_Right_BH1_lbxautocannon10",
+                "bWeaponGroup1": true,
+                "bWeaponGroup2": false,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Forearm_Right_EH1_mediumpulselaser",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": true,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Arm_Right_Medium_MeleeWeapon",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": false,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": true,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Forearm_Left_EH1_mediumpulselaser",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": true,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Arm_Left_Hand_Actuator_Melee",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": false,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": true,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Arm_Right_Hand_Actuator_Melee",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": false,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": true,
+                "bWeaponGroup6": false
+            }
+        ],
+        "chainFireGroups": []
+    },
+    "equipment": {
+        "mechPartEquipment": [
+            {
+                "mechPart": "Head",
+                "slottedEquipment": [
+                    {
+                        "slotId": 0,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWHeatSinkDataAsset:SingleHeatSink"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    }
+                ]
+            },
+            {
+                "mechPart": "LeftTorso",
+                "slottedEquipment": [
+                    {
+                        "slotId": 0,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWHeatSinkDataAsset:SingleHeatSink"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    }
+                ]
+            },
+            {
+                "mechPart": "RightTorso",
+                "slottedEquipment": [
+                    {
+                        "slotId": 0,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWHeatSinkDataAsset:SingleHeatSink"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    },
+                    {
+                        "slotId": 1,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWAmmoDataAsset:AC10_LBX_AmmoEquipment"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    },
+                    {
+                        "slotId": 2,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWAmmoDataAsset:AC10_LBX_Half_AmmoEquipment"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    }
+                ]
+            },
+            {
+                "mechPart": "LeftLeg",
+                "slottedEquipment": [
+                    {
+                        "slotId": 0,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:JumpJetClass4_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWJumpJetDataAsset:JumpJet_Class4_Equipment"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    },
+                    {
+                        "slotId": 1,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:JumpJetClass4_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWJumpJetDataAsset:JumpJet_Class4_Equipment"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    }
+                ]
+            },
+            {
+                "mechPart": "RightLeg",
+                "slottedEquipment": [
+                    {
+                        "slotId": 0,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:JumpJetClass4_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWJumpJetDataAsset:JumpJet_Class4_Equipment"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    },
+                    {
+                        "slotId": 1,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:JumpJetClass4_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWJumpJetDataAsset:JumpJet_Class4_Equipment"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "installedTraits": []
+}

@@ -1,0 +1,318 @@
+{
+	"mechDataAssetId":
+	{
+		"id": "MWMechDataAsset:CN9-A_MDA"
+	},
+	"customName": "",
+	"skinCustomization":
+	{
+		"mechSkinAssetId":
+		{
+			"id": "MWUnitSkinAsset:Centurion_Default_SKN"
+		},
+		"customMechSkinId": "None",
+		"bPrimaryColorSet": true,
+		"primaryColor":
+		{
+			"r": 0.046665001660585403,
+			"g": 0.084375999867916107,
+			"b": 0.10461600124835968,
+			"a": 1
+		},
+		"bSecondaryColorSet": true,
+		"secondaryColor":
+		{
+			"r": 0.30054399371147156,
+			"g": 0.19461800158023834,
+			"b": 0.063009999692440033,
+			"a": 1
+		},
+		"bTertiaryColorSet": true,
+		"tertiaryColor":
+		{
+			"r": 0.50888097286224365,
+			"g": 0.50288599729537964,
+			"b": 0.45641100406646729,
+			"a": 1
+		}
+	},
+	"currentStructure":
+	{
+		"head": 8,
+		"centerTorso": 8,
+		"leftTorso": 10,
+		"rightTorso": 10,
+		"leftArm": 0,
+		"rightArm": 8,
+		"leftLeg": 10,
+		"rightLeg": 0
+	},
+	"currentArmor":
+	{
+		"head": 0,
+		"centerTorso": 0,
+		"leftTorso": 0,
+		"rightTorso": 0,
+		"leftArm": 0,
+		"rightArm": 0,
+		"leftLeg": 0,
+		"rightLeg": 0
+	},
+	"currentRearArmor":
+	{
+		"centerTorsoRear": 0,
+		"leftTorsoRear": 0,
+		"rightTorsoRear": 0
+	},
+	"installedArmor":
+	{
+		"head": 18,
+		"centerTorso": 36,
+		"leftTorso": 26,
+		"rightTorso": 26,
+		"leftArm": 32,
+		"rightArm": 32,
+		"leftLeg": 32,
+		"rightLeg": 32
+	},
+	"installedRearArmor":
+	{
+		"centerTorsoRear": 14,
+		"leftTorsoRear": 12,
+		"rightTorsoRear": 12
+	},
+	"installedWeapons": [
+		{
+			"hardpointSlotId": "Torso_Center_EH1_mediumlaser",
+			"weaponData":
+			{
+				"weaponId":
+				{
+					"id": "MWTraceWeaponDataAsset:Mediumlaser"
+				},
+				"healthState": "Damaged"
+			}
+		},
+		{
+			"hardpointSlotId": "Torso_Center_EH2_mediumlaser",
+			"weaponData":
+			{
+				"weaponId":
+				{
+					"id": "MWTraceWeaponDataAsset:Mediumlaser"
+				},
+				"healthState": "Damaged"
+			}
+		},
+		{
+			"hardpointSlotId": "Forearm_Right_BH1_autocannon10",
+			"weaponData":
+			{
+				"weaponId":
+				{
+					"id": "MWProjectileWeaponDataAsset:Autocannon10"
+				},
+				"healthState": "Damaged"
+			}
+		},
+		{
+			"hardpointSlotId": "Torso_Left_MH1_lrm10",
+			"weaponData":
+			{
+				"weaponId":
+				{
+					"id": "MWMissileWeaponDataAsset:LRM10_Stream"
+				},
+				"healthState": "Healthy"
+			}
+		},
+		{
+			"hardpointSlotId": "Arm_Left_Hand_Actuator_Melee",
+			"weaponData":
+			{
+				"weaponId":
+				{
+					"id": ""
+				},
+				"healthState": "Healthy"
+			}
+		},
+		{
+			"hardpointSlotId": "Arm_Right_LowerArm_Actuator_Melee",
+			"weaponData":
+			{
+				"weaponId":
+				{
+					"id": ""
+				},
+				"healthState": "Healthy"
+			}
+		}
+	],
+	"weaponGroupInfo":
+	{
+		"weaponGroups": [
+			{
+				"hardpointSlotId": "Torso_Center_EH1_mediumlaser",
+				"bWeaponGroup1": false,
+				"bWeaponGroup2": true,
+				"bWeaponGroup3": false,
+				"bWeaponGroup4": false,
+				"bWeaponGroup5": false,
+				"bWeaponGroup6": false
+			},
+			{
+				"hardpointSlotId": "Torso_Center_EH2_mediumlaser",
+				"bWeaponGroup1": false,
+				"bWeaponGroup2": true,
+				"bWeaponGroup3": false,
+				"bWeaponGroup4": false,
+				"bWeaponGroup5": false,
+				"bWeaponGroup6": false
+			},
+			{
+				"hardpointSlotId": "Forearm_Right_BH1_autocannon10",
+				"bWeaponGroup1": true,
+				"bWeaponGroup2": false,
+				"bWeaponGroup3": false,
+				"bWeaponGroup4": false,
+				"bWeaponGroup5": false,
+				"bWeaponGroup6": false
+			},
+			{
+				"hardpointSlotId": "Torso_Left_MH1_lrm10",
+				"bWeaponGroup1": false,
+				"bWeaponGroup2": false,
+				"bWeaponGroup3": true,
+				"bWeaponGroup4": false,
+				"bWeaponGroup5": false,
+				"bWeaponGroup6": false
+			},
+			{
+				"hardpointSlotId": "Arm_Left_Hand_Actuator_Melee",
+				"bWeaponGroup1": false,
+				"bWeaponGroup2": false,
+				"bWeaponGroup3": false,
+				"bWeaponGroup4": false,
+				"bWeaponGroup5": true,
+				"bWeaponGroup6": false
+			},
+			{
+				"hardpointSlotId": "Arm_Right_LowerArm_Actuator_Melee",
+				"bWeaponGroup1": false,
+				"bWeaponGroup2": false,
+				"bWeaponGroup3": false,
+				"bWeaponGroup4": false,
+				"bWeaponGroup5": true,
+				"bWeaponGroup6": false
+			}
+		],
+		"chainFireGroups": []
+	},
+	"equipment":
+	{
+		"mechPartEquipment": [
+			{
+				"mechPart": "LeftTorso",
+				"slottedEquipment": [
+					{
+						"slotId": 0,
+						"slotTypeAssetId":
+						{
+							"id": "MWSlotTypeDataAsset:General_SlotType"
+						},
+						"equipmentData":
+						{
+							"equipmentId":
+							{
+								"id": "MWHeatSinkDataAsset:SingleHeatSink"
+							},
+							"healthState": "Damaged"
+						}
+					},
+					{
+						"slotId": 1,
+						"slotTypeAssetId":
+						{
+							"id": "MWSlotTypeDataAsset:General_SlotType"
+						},
+						"equipmentData":
+						{
+							"equipmentId":
+							{
+								"id": "MWAmmoDataAsset:Lrm_AmmoEquipment"
+							},
+							"healthState": "Damaged"
+						}
+					},
+					{
+						"slotId": 2,
+						"slotTypeAssetId":
+						{
+							"id": "MWSlotTypeDataAsset:General_SlotType"
+						},
+						"equipmentData":
+						{
+							"equipmentId":
+							{
+								"id": "MWAmmoDataAsset:Lrm_AmmoEquipment"
+							},
+							"healthState": "Damaged"
+						}
+					}
+				]
+			},
+			{
+				"mechPart": "RightTorso",
+				"slottedEquipment": [
+					{
+						"slotId": 0,
+						"slotTypeAssetId":
+						{
+							"id": "MWSlotTypeDataAsset:General_SlotType"
+						},
+						"equipmentData":
+						{
+							"equipmentId":
+							{
+								"id": "MWHeatSinkDataAsset:SingleHeatSink"
+							},
+							"healthState": "Damaged"
+						}
+					},
+					{
+						"slotId": 1,
+						"slotTypeAssetId":
+						{
+							"id": "MWSlotTypeDataAsset:General_SlotType"
+						},
+						"equipmentData":
+						{
+							"equipmentId":
+							{
+								"id": "MWAmmoDataAsset:Ac10_Standard_AmmoEquipment"
+							},
+							"healthState": "Damaged"
+						}
+					},
+					{
+						"slotId": 2,
+						"slotTypeAssetId":
+						{
+							"id": "MWSlotTypeDataAsset:General_SlotType"
+						},
+						"equipmentData":
+						{
+							"equipmentId":
+							{
+								"id": "MWAmmoDataAsset:Ac10_Standard_AmmoEquipment"
+							},
+							"healthState": "Damaged"
+						}
+					}
+				]
+			}
+		]
+	},
+	"installedTraits": []
+}

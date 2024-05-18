@@ -1,0 +1,353 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Catapult/Model/Catapult_MDL.Catapult_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "CPLT-J",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "CPLT-J",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 65,
+			"baseTons": 27.5,
+			"cBillBaseValue": 10000,
+			"cBillUpkeepCost": 50000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 380000,
+					"centerTorso": 1534000,
+					"sideTorso": 130000,
+					"arm": 16250,
+					"leg": 22750
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 40,
+			"baseCoolingRate": 1
+		},
+		"moveStats":
+		{
+			"topSpeed": 2042.3077392578125,
+			"minSpeed": 400,
+			"reverseTopSpeed": 1360.1768798828125,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 79.068206787109375,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 99,
+				"pitch": 61.880001068115234
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -120,
+					"pitch": -26
+				},
+				"high":
+				{
+					"yaw": 120,
+					"pitch": 26
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 247.5,
+				"pitch": 247.5
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": 0,
+					"pitch": -35
+				},
+				"high":
+				{
+					"yaw": 0,
+					"pitch": 35
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "endosteeltype",
+				"heatSinkType": "doubleheatsinktype",
+				"bArtemis": false,
+				"engineRating": 295,
+				"bXLEngine": false
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AMS_AmmoEquipment.AMS_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 3,
+					"componentAmmo": [],
+					"jumpJets": 1
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 3,
+					"componentAmmo": [],
+					"jumpJets": 1
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 42,
+			"leftTorso": 30,
+			"rightTorso": 30,
+			"leftArm": 20,
+			"rightArm": 20,
+			"leftLeg": 30,
+			"rightLeg": 30
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 84,
+			"leftTorso": 60,
+			"rightTorso": 60,
+			"leftArm": 40,
+			"rightArm": 40,
+			"leftLeg": 60,
+			"rightLeg": 60
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Heavy.Catapult.CPLT-J"
+	},
+	"chassisFullName": "Catapult",
+	"variantName": "CPLT-J",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:CPLT-J_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Catapult_Icon_UIX.Catapult_Icon_UIX",
+	"targetComponent": "/Game/Objects/Mechs/Catapult/Target/Catapult_Target.Catapult_Target_C",
+	"description": "Serving with the Seventy-first Regiment of the Eridani Light Horse, Leigh Voss's reputation of insubordination was as large as the tales of her ruthlessness on the battlefield with her brightly colored 'Mech 'Jester'. Both of these traits were most likely amplified by her admiration of her equally rebellious CO Greg Oliphant. Oliphant himself was well known for sharing a flair for the dramatic with his own Banshee 'The Court Jester' which has been decorated with a giant fool's cap with bells and an elongated grin seemed to be the inspiration for Voss' Chesire Cat grin on her own Jester.",
+	"selectedWeaponHardPoints": [
+		"Torso_Left_EH1_mediumlaser",
+		"Torso_Left_AH1_antimissilesystem",
+		"Torso_Center_EH1_smalllaser",
+		"Torso_Center_EH2_smalllaser",
+		"Torso_Right_EH1_mediumlaser",
+		"Torso_Right_AH1_antimissilesystem",
+		"Upperarm_Right_EH1_largelaser",
+		"Upperarm_Left_EH1_largelaser"
+	],
+	"blankWeaponHardPoints": [],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:EndoSteelStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Double"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "Equipment.JumpJets.Class3"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1,
+					"CenterTorso": 0,
+					"LeftTorso": 9,
+					"LeftArm": 8,
+					"LeftLeg": 2,
+					"RightTorso": 9,
+					"RightArm": 8,
+					"RightLeg": 2
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:JumpJetClass3_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 0,
+					"CenterTorso": 0,
+					"LeftTorso": 1,
+					"RightTorso": 1,
+					"LeftArm": 0,
+					"RightArm": 0,
+					"LeftLeg": 0,
+					"RightLeg": 0
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 1
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 7
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:CPLT_295_Std_RefitCosts"
+	},
+	"engineRating": 295,
+	"bXLEngine": false,
+	"baseChassisCost": 4802875,
+	"salvageShareCost": 34,
+	"bIsHeroMech": true,
+	"bIsDefaultVariant": false
+}

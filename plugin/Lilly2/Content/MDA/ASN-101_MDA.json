@@ -1,0 +1,355 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Assassin/Model/Assassin_MDL.Assassin_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "ASN-101",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "ASN-101",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 40,
+			"baseTons": 26,
+			"cBillBaseValue": 10000,
+			"cBillUpkeepCost": 30000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 330000,
+					"centerTorso": 896000,
+					"sideTorso": 80000,
+					"arm": 10000,
+					"leg": 14000
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 40,
+			"baseCoolingRate": 1
+		},
+		"moveStats":
+		{
+			"topSpeed": 3150,
+			"minSpeed": 400,
+			"reverseTopSpeed": 2097.89990234375,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 122.72760009765625,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 171,
+				"pitch": 106.87999725341797
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -130,
+					"pitch": -40
+				},
+				"high":
+				{
+					"yaw": 130,
+					"pitch": 40
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 427.5,
+				"pitch": 427.5
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -30,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 30,
+					"pitch": 30
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "standardstructuretype",
+				"heatSinkType": "standardheatsinktype",
+				"bArtemis": false,
+				"engineRating": 280,
+				"bXLEngine": false
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 1
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment"
+					],
+					"jumpJets": 2
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment"
+					],
+					"jumpJets": 2
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 24,
+			"leftTorso": 20,
+			"rightTorso": 20,
+			"leftArm": 12,
+			"rightArm": 12,
+			"leftLeg": 20,
+			"rightLeg": 20
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 48,
+			"leftTorso": 40,
+			"rightTorso": 40,
+			"leftArm": 24,
+			"rightArm": 24,
+			"leftLeg": 40,
+			"rightLeg": 40
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Medium.Assassin.ASN-101"
+	},
+	"chassisFullName": "Assassin",
+	"variantName": "ASN-101",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:ASN-101_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Assassin_Icon_UIX.Assassin_Icon_UIX",
+	"targetComponent": "/Game/Objects/Mechs/Assassin/Target/Assassin_Target.Assassin_Target_C",
+	"description": "While the development of the Assassin in 2676 was often considered the prime example of a political pork project, rife with exaggerated performance statistics, fudged budget estimates, and numerous (sometimes dangerous) corners cut during the production phase, the Assassin nonetheless turned out to be a surprisingly solid 'Mech. Though it possesses relatively lackluster firepower for its tonnage, the Assassin compensates with a high top speed and a decent amount of protection, making it ideal for hit-and-run tactics and in combat against lighter enemies.",
+	"selectedWeaponHardPoints": [
+		"Head_EH1_Laser_smalllaser",
+		"Torso_Left_MH1_srm2",
+		"Torso_Left_EH1_smalllaser",
+		"Torso_Right_MH1_lrm5",
+		"Torso_Right_EH1_smalllaser",
+		"Forearm_Right_EH1_mediumlaser",
+		"Arm_Left_Hand_Actuator_Melee",
+		"Arm_Right_LowerArm_Actuator_Melee"
+	],
+	"blankWeaponHardPoints": [],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:StandardStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Single"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "Equipment.JumpJets.Class4"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 0,
+					"CenterTorso": 1,
+					"LeftTorso": 8,
+					"LeftArm": 8,
+					"LeftLeg": 2,
+					"RightTorso": 7,
+					"RightArm": 7,
+					"RightLeg": 2
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:JumpJetClass4_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 0,
+					"CenterTorso": 1,
+					"LeftTorso": 2,
+					"RightTorso": 2,
+					"LeftArm": 0,
+					"RightArm": 0,
+					"LeftLeg": 0,
+					"RightLeg": 0
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 1
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 9
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:ASN_280_Std_RefitCosts"
+	},
+	"engineRating": 280,
+	"bXLEngine": false,
+	"baseChassisCost": 2952133,
+	"salvageShareCost": 18,
+	"bIsHeroMech": false,
+	"bIsDefaultVariant": false
+}

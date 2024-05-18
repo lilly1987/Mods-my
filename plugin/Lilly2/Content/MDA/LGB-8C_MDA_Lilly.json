@@ -1,0 +1,295 @@
+{
+    "mechModel": "MWMechModelDataAsset'/Game/DLC5/Objects/Mechs/Longbow/Model/Longbow_MDL.Longbow_MDL'",
+    "bReadFromFileOnSave": true,
+    "mechStats": {
+        "keyName": "LGB-8C",
+        "table": "DataTable'/Lilly2/Stats/MechStats_Lilly.MechStats_Lilly'"
+    },
+    "healthStats": {
+        "keyName": "LGB-8C",
+        "table": "DataTable'/Lilly2/Stats/MechHealthStats_Lilly.MechHealthStats_Lilly'"
+    },
+    "mechDataStats": {
+        "baseStats": {
+            "tons": 85,
+            "baseTons": -2000,
+            "cBillBaseValue": 100000,
+            "cBillUpkeepCost": 10000,
+            "repairData": {
+                "costPerArmorPoint": 200,
+                "costPerStructurePoint": 400,
+                "partReplacementCost": {
+                    "head": 420000,
+                    "centerTorso": 1734000,
+                    "sideTorso": 170000,
+                    "arm": 21250,
+                    "leg": 29750
+                }
+            },
+            "refitCosts": {
+                "id": ""
+            },
+            "baseHeatCapacity": 40,
+            "baseCoolingRate": 1
+        },
+        "moveStats": {
+            "topSpeed": 1350,
+            "minSpeed": 400,
+            "reverseTopSpeed": 899.0999755859375,
+            "accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+            "decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+            "slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+            "turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+            "turnSpeed": 57.295799255371094,
+            "jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+            "jumpJetLandingRecoveryCurve": "None",
+            "fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+        },
+        "torsoStats": {
+            "torsoTwistRate": {
+                "yaw": 85.5,
+                "pitch": 61.880001068115234
+            },
+            "torsoTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -85,
+                    "pitch": -30
+                },
+                "high": {
+                    "yaw": 85,
+                    "pitch": 30
+                }
+            },
+            "armTwistRate": {
+                "yaw": 168.75,
+                "pitch": 168.75
+            },
+            "armTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": 0,
+                    "pitch": -30
+                },
+                "high": {
+                    "yaw": 0,
+                    "pitch": 30
+                }
+            }
+        },
+        "powerStats": {
+            "powerInitializationTime": 8,
+            "powerUpTime": 3,
+            "powerDownTime": 3,
+            "torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+            "torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+            "armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+            "armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+            "legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+            "legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+        },
+        "mechImportData": {
+            "baseMechInformation": {
+                "armorType": "standardarmortype",
+                "structureType": "standardstructuretype",
+                "heatSinkType": "standardheatsinktype",
+                "bArtemis": false,
+                "engineRating": 255,
+                "bXLEngine": false
+            },
+            "componentInformation": {
+                "head": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "centerTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "leftTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 3,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "rightTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 3,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "leftArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 2,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 2,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                }
+            }
+        }
+    },
+    "healthDataStats": {
+        "maxStructure": {
+            "head": 15,
+            "centerTorso": 54,
+            "leftTorso": 36,
+            "rightTorso": 36,
+            "leftArm": 28,
+            "rightArm": 28,
+            "leftLeg": 36,
+            "rightLeg": 36
+        },
+        "maxArmor": {
+            "head": 30,
+            "centerTorso": 108,
+            "leftTorso": 72,
+            "rightTorso": 72,
+            "leftArm": 56,
+            "rightArm": 56,
+            "leftLeg": 72,
+            "rightLeg": 72
+        }
+    },
+    "mechType": {
+        "tagName": "Mech.Assault.Longbow.LGB-8C"
+    },
+    "chassisFullName": "Longbow",
+    "variantName": "LGB-8C_Lilly",
+    "defaultMech": {
+        "id": "MWMechLoadoutAsset:LGB-8C_Loadout_Lilly"
+    },
+    "mechTexture": "/Game/UI/Textures/Battlemechs/Longbow_Icon_UIX.Longbow_Icon_UIX",
+    "targetComponent": "/Game/DLC5/Objects/Mechs/Longbow/Target/Longbow_Target.Longbow_Target_C",
+    "description": "A superior fire 'Mech Developed by StarCorps, The Free World\u2019s League\u2019s answer to the Archer. Possesses good speed for its size, thanks to a strand 255 fusion engine, enabling it to push the pace against both heavy and assault units. Boasting fifty LRM tubes the Longbow can provide superior missile support, but that is offset by a small laser backup and a lack of armor CASE that renders it vulnerable during close combat encounters, especially against ammo blasts.",
+    "selectedWeaponHardPoints": [
+        "Torso_Left_EH1_mediumlaser",
+        "Torso_Right_EH1_mediumlaser",
+        "Torso_Left_EH2_mediumlaser",
+        "Torso_Right_EH2_mediumlaser",
+        "Torso_Left_MH1_lrm5",
+        "Torso_Right_MH1_lrm5",
+        "Upperarm_Left_MH1_lrm20",
+        "Upperarm_Right_MH1_lrm20"
+    ],
+    "blankWeaponHardPoints": [
+        "Upperarm_Left_MB2_blank",
+        "Upperarm_Left_MB3_blank",
+        "Upperarm_Right_MB2_blank",
+        "Upperarm_Right_MB3_blank"
+    ],
+    "bRecalculateFreeSlotsOnSave": true,
+    "equipmentAllocation": {
+        "armorDataAssetId": {
+            "id": "MWArmorDataAsset:StandardArmor"
+        },
+        "structureDataAssetId": {
+            "id": "MWStructureDataAsset:StandardStructure"
+        },
+        "allowedHeatSinkType": {
+            "tagName": "Equipment.HeatSinks.Single"
+        },
+        "allowedJumpJetType": {
+            "tagName": "None"
+        },
+        "slotData": [
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:General_SlotType"
+                },
+                "slotCounts": {
+                    "Head": 1,
+                    "CenterTorso": 2,
+                    "LeftTorso": 9,
+                    "LeftArm": 7,
+                    "LeftLeg": 2,
+                    "RightTorso": 9,
+                    "RightArm": 7,
+                    "RightLeg": 2
+                }
+            }
+        ],
+        "internalEquipment": [
+            "LifeSupport",
+            "Sensors",
+            "Cockpit",
+            "Gyro",
+            "LeftArm_Shoulder",
+            "LeftArm_UpperActuator",
+            "RightArm_Shoulder",
+            "RightArm_UpperActuator",
+            "LeftLeg_Hip",
+            "LeftLeg_UpperActuator",
+            "LeftLeg_LowerActuator",
+            "LeftLeg_FootActuator",
+            "RightLeg_Hip",
+            "RightLeg_UpperActuator",
+            "RightLeg_LowerActuator",
+            "RightLeg_FootActuator"
+        ],
+        "totalTraitSlots": 100
+    },
+    "refitCosts": {
+        "id": "MWMechRefitCostsDataAsset:LGB_255_Std_RefitCosts"
+    },
+    "engineRating": 255,
+    "bXLEngine": false,
+    "baseChassisCost": 5634175,
+    "salvageShareCost": 32,
+    "bIsHeroMech": false,
+    "bIsDefaultVariant": false
+}

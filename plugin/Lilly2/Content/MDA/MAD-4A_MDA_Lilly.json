@@ -1,0 +1,307 @@
+{
+    "mechModel": "MWMechModelDataAsset'/Game/DLC1/Objects/Mechs/Marauderii/Model/Marauderii_MDL.Marauderii_MDL'",
+    "bReadFromFileOnSave": true,
+    "mechStats": {
+        "keyName": "MAD-4A",
+        "table": "DataTable'/Lilly2/Stats/MechStats_Lilly.MechStats_Lilly'"
+    },
+    "healthStats": {
+        "keyName": "MAD-4A",
+        "table": "DataTable'/Lilly2/Stats/MechHealthStats_Lilly.MechHealthStats_Lilly'"
+    },
+    "mechDataStats": {
+        "baseStats": {
+            "tons": 100,
+            "baseTons": -2000,
+            "cBillBaseValue": 100000,
+            "cBillUpkeepCost": 70000,
+            "repairData": {
+                "costPerArmorPoint": 200,
+                "costPerStructurePoint": 400,
+                "partReplacementCost": {
+                    "head": 450000,
+                    "centerTorso": 2400000,
+                    "sideTorso": 200000,
+                    "arm": 25000,
+                    "leg": 35000
+                }
+            },
+            "refitCosts": {
+                "id": ""
+            },
+            "baseHeatCapacity": 40,
+            "baseCoolingRate": 1
+        },
+        "moveStats": {
+            "topSpeed": 1350,
+            "minSpeed": 400,
+            "reverseTopSpeed": 899.0999755859375,
+            "accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+            "decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+            "slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+            "turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+            "turnSpeed": 50.42030334472656,
+            "jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+            "jumpJetLandingRecoveryCurve": "None",
+            "fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+        },
+        "torsoStats": {
+            "torsoTwistRate": {
+                "yaw": 63,
+                "pitch": 39.380001068115234
+            },
+            "torsoTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -70,
+                    "pitch": -30
+                },
+                "high": {
+                    "yaw": 70,
+                    "pitch": 30
+                }
+            },
+            "armTwistRate": {
+                "yaw": 157.5,
+                "pitch": 157.5
+            },
+            "armTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -20,
+                    "pitch": -30
+                },
+                "high": {
+                    "yaw": 20,
+                    "pitch": 30
+                }
+            }
+        },
+        "powerStats": {
+            "powerInitializationTime": 8,
+            "powerUpTime": 3,
+            "powerDownTime": 3,
+            "torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+            "torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+            "armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+            "armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+            "legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+            "legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+        },
+        "mechImportData": {
+            "baseMechInformation": {
+                "armorType": "standardarmortype",
+                "structureType": "standardstructuretype",
+                "heatSinkType": "standardheatsinktype",
+                "bArtemis": false,
+                "engineRating": 300,
+                "bXLEngine": false
+            },
+            "componentInformation": {
+                "head": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "centerTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 2,
+                    "componentAmmo": [],
+                    "jumpJets": 1
+                },
+                "leftTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 9,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 6,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 1,
+                    "componentAmmo": [],
+                    "jumpJets": 1
+                },
+                "rightLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 1,
+                    "componentAmmo": [],
+                    "jumpJets": 1
+                }
+            }
+        }
+    },
+    "healthDataStats": {
+        "maxStructure": {
+            "head": 15,
+            "centerTorso": 62,
+            "leftTorso": 42,
+            "rightTorso": 42,
+            "leftArm": 34,
+            "rightArm": 34,
+            "leftLeg": 42,
+            "rightLeg": 42
+        },
+        "maxArmor": {
+            "head": 30,
+            "centerTorso": 124,
+            "leftTorso": 84,
+            "rightTorso": 84,
+            "leftArm": 68,
+            "rightArm": 68,
+            "leftLeg": 84,
+            "rightLeg": 84
+        }
+    },
+    "mechType": {
+        "tagName": "Mech.Assault.Marauderii.MAD-4A"
+    },
+    "chassisFullName": "Marauder II",
+    "variantName": "MAD-4A_Lilly",
+    "defaultMech": {
+        "id": "MWMechLoadoutAsset:MAD-4A_Loadout_Lilly"
+    },
+    "mechTexture": "/Game/UI/Textures/Battlemechs/Marauderii_Icon_UIX.MarauderII_Icon_UIX",
+    "targetComponent": "/Game/DLC1/Objects/Mechs/Marauderii/Target/Marauderii_Target.Marauderii_Target_C",
+    "description": "\tWolf's Dragoons contacted Blackwell Industries in 3010 to take the already famed Marauder design, and turn it into a 100-ton Assault 'Mech. Working from existing plans meant for a short design phase with the Dragoon's Zeta Battalion having one among their ranks a little over 2 years later. Only minor changes from the original mean this 'Mech remains powerfully armed. Now sporting as much armor as an Atlas, and adding jump jets make this 'Mech a terrifying sight on the battlefield. Currently under exclusive contract with Wolf's Dragoons, many military units are clamoring for Blackwell to sell to the wider arms market. Although very rarely one can be spotted outside the Dragoon ranks.",
+    "selectedWeaponHardPoints": [
+        "Torso_Right_EH1_largelaser",
+        "Forearm_Right_EH1_ppc",
+        "Forearm_Right_EH2_mediumlaser",
+        "Forearm_Left_EH1_ppc",
+        "Forearm_Left_EH2_mediumlaser",
+        "Arm_Left_LowerArm_Actuator_Melee",
+        "Arm_Right_LowerArm_Actuator_Melee"
+    ],
+    "blankWeaponHardPoints": [
+        "Torso_Left_MH2_blank",
+        "Torso_Right_MH2_blank"
+    ],
+    "bRecalculateFreeSlotsOnSave": true,
+    "equipmentAllocation": {
+        "armorDataAssetId": {
+            "id": "MWArmorDataAsset:StandardArmor"
+        },
+        "structureDataAssetId": {
+            "id": "MWStructureDataAsset:StandardStructure"
+        },
+        "allowedHeatSinkType": {
+            "tagName": "Equipment.HeatSinks.Single"
+        },
+        "allowedJumpJetType": {
+            "tagName": "Equipment.JumpJets.Class1"
+        },
+        "slotData": [
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:General_SlotType"
+                },
+                "slotCounts": {
+                    "Head": 1,
+                    "CenterTorso": 1,
+                    "LeftTorso": 12,
+                    "LeftArm": 6,
+                    "LeftLeg": 1,
+                    "RightTorso": 10,
+                    "RightArm": 6,
+                    "RightLeg": 1
+                }
+            },
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:JumpJetClass1_SlotType"
+                },
+                "slotCounts": {
+                    "Head": 0,
+                    "CenterTorso": 1,
+                    "LeftTorso": 0,
+                    "RightTorso": 0,
+                    "LeftArm": 0,
+                    "RightArm": 0,
+                    "LeftLeg": 1,
+                    "RightLeg": 1
+                }
+            },
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+                },
+                "slotCounts": {
+                    "CenterTorso": 2
+                }
+            }
+        ],
+        "internalEquipment": [
+            "LifeSupport",
+            "Sensors",
+            "Cockpit",
+            "Gyro",
+            "LeftArm_Shoulder",
+            "LeftArm_UpperActuator",
+            "RightArm_Shoulder",
+            "RightArm_UpperActuator",
+            "LeftLeg_Hip",
+            "LeftLeg_UpperActuator",
+            "LeftLeg_LowerActuator",
+            "LeftLeg_FootActuator",
+            "RightLeg_Hip",
+            "RightLeg_UpperActuator",
+            "RightLeg_LowerActuator",
+            "RightLeg_FootActuator"
+        ],
+        "totalTraitSlots": 100
+    },
+    "refitCosts": {
+        "id": "MWMechRefitCostsDataAsset:MADII_300_Std_RefitCosts"
+    },
+    "engineRating": 300,
+    "bXLEngine": false,
+    "baseChassisCost": 7360000,
+    "salvageShareCost": 50,
+    "bIsHeroMech": false,
+    "bIsDefaultVariant": true
+}

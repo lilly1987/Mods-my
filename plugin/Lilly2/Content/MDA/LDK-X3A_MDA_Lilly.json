@@ -1,0 +1,285 @@
+{
+    "mechModel": "MWMechModelDataAsset'/Game/DLC6/Objects/Mechs/Roughneck/Model/Roughneck_MDL.Roughneck_MDL'",
+    "bReadFromFileOnSave": true,
+    "mechStats": {
+        "keyName": "LDK-X3A",
+        "table": "DataTable'/Lilly2/Stats/MechStats_Lilly.MechStats_Lilly'"
+    },
+    "healthStats": {
+        "keyName": "LDK-X3A",
+        "table": "DataTable'/Lilly2/Stats/MechHealthStats_Lilly.MechHealthStats_Lilly'"
+    },
+    "mechDataStats": {
+        "baseStats": {
+            "tons": 65,
+            "baseTons": -2000,
+            "cBillBaseValue": 100000,
+            "cBillUpkeepCost": 10000,
+            "repairData": {
+                "costPerArmorPoint": 200,
+                "costPerStructurePoint": 400,
+                "partReplacementCost": {
+                    "head": 380000,
+                    "centerTorso": 1352000,
+                    "sideTorso": 130000,
+                    "arm": 16250,
+                    "leg": 22750
+                }
+            },
+            "refitCosts": {
+                "id": ""
+            },
+            "baseHeatCapacity": 40,
+            "baseCoolingRate": 1
+        },
+        "moveStats": {
+            "topSpeed": 1800,
+            "minSpeed": 400,
+            "reverseTopSpeed": 1198.800048828125,
+            "accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+            "decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+            "slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+            "turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+            "turnSpeed": 68.18199920654297,
+            "jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+            "jumpJetLandingRecoveryCurve": "None",
+            "fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+        },
+        "torsoStats": {
+            "torsoTwistRate": {
+                "yaw": 85.5,
+                "pitch": 53.439998626708984
+            },
+            "torsoTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -100,
+                    "pitch": -20
+                },
+                "high": {
+                    "yaw": 100,
+                    "pitch": 20
+                }
+            },
+            "armTwistRate": {
+                "yaw": 213.75,
+                "pitch": 213.75
+            },
+            "armTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -20,
+                    "pitch": -25
+                },
+                "high": {
+                    "yaw": 20,
+                    "pitch": 25
+                }
+            }
+        },
+        "powerStats": {
+            "powerInitializationTime": 8,
+            "powerUpTime": 3,
+            "powerDownTime": 3,
+            "torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+            "torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+            "armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+            "armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+            "legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+            "legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+        },
+        "mechImportData": {
+            "baseMechInformation": {
+                "armorType": "standardarmortype",
+                "structureType": "standardstructuretype",
+                "heatSinkType": "doubleheatsinktype",
+                "bArtemis": false,
+                "engineRating": 260,
+                "bXLEngine": false
+            },
+            "componentInformation": {
+                "head": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "centerTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 3,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 3,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                }
+            }
+        }
+    },
+    "healthDataStats": {
+        "maxStructure": {
+            "head": 15,
+            "centerTorso": 42,
+            "leftTorso": 30,
+            "rightTorso": 30,
+            "leftArm": 20,
+            "rightArm": 20,
+            "leftLeg": 30,
+            "rightLeg": 30
+        },
+        "maxArmor": {
+            "head": 30,
+            "centerTorso": 84,
+            "leftTorso": 60,
+            "rightTorso": 60,
+            "leftArm": 40,
+            "rightArm": 40,
+            "leftLeg": 60,
+            "rightLeg": 60
+        }
+    },
+    "mechType": {
+        "tagName": "Mech.Heavy.Roughneck.LDK-X3A"
+    },
+    "chassisFullName": "Loaderking",
+    "variantName": "LDK-X3A_Lilly",
+    "defaultMech": {
+        "id": "MWMechLoadoutAsset:LDK-X3A_Loadout_Lilly"
+    },
+    "mechTexture": "/Game/UI/Textures/Battlemechs/Roughneck_Icon_UIX.Roughneck_Icon_UIX",
+    "targetComponent": "/Game/DLC6/Objects/Mechs/Roughneck/Target/Roughneck_Target.Roughneck_Target_C",
+    "description": "The LoaderKing stands as an exemplary engineering feat, characterized by a superior and robust design that demonstrates exceptional durability under continuous heavy utilization. Its inherent capacity to withstand prolonged, strenuous operational conditions positions it as a stalwart in the realm of industrial machinery, showcasing a remarkable ability to endure sustained wear and tear. These properties made it an ideal chassis for organizations like Solaris Arms to weaponize it for the purposes of arena combat.",
+    "selectedWeaponHardPoints": [
+        "Head_EH1_Laser_smalllaser",
+        "Torso_Left_EH1_mediumlaser",
+        "Torso_Left_EH2_smalllaser",
+        "Torso_Right_EH1_mediumlaser",
+        "Torso_Right_EH2_mediumlaser",
+        "Forearm_Right_EH1_ppc_shotgun",
+        "Forearm_Left_EH1_binarylaser",
+        "Arm_Left_Hand_Actuator_Melee",
+        "Arm_Right_Hand_Actuator_Melee"
+    ],
+    "blankWeaponHardPoints": [
+        "Centre_Center_BLANK_blank"
+    ],
+    "bRecalculateFreeSlotsOnSave": true,
+    "equipmentAllocation": {
+        "armorDataAssetId": {
+            "id": "MWArmorDataAsset:StandardArmor"
+        },
+        "structureDataAssetId": {
+            "id": "MWStructureDataAsset:StandardStructure"
+        },
+        "allowedHeatSinkType": {
+            "tagName": "Equipment.HeatSinks.Double"
+        },
+        "allowedJumpJetType": {
+            "tagName": "None"
+        },
+        "slotData": [
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:General_SlotType"
+                },
+                "slotCounts": {
+                    "Head": 0,
+                    "CenterTorso": 2,
+                    "LeftTorso": 10,
+                    "LeftArm": 6,
+                    "LeftLeg": 2,
+                    "RightTorso": 10,
+                    "RightArm": 6,
+                    "RightLeg": 2
+                }
+            }
+        ],
+        "internalEquipment": [
+            "LifeSupport",
+            "Sensors",
+            "Cockpit",
+            "Gyro",
+            "LeftArm_Shoulder",
+            "LeftArm_UpperActuator",
+            "RightArm_Shoulder",
+            "RightArm_UpperActuator",
+            "LeftLeg_Hip",
+            "LeftLeg_UpperActuator",
+            "LeftLeg_LowerActuator",
+            "LeftLeg_FootActuator",
+            "RightLeg_Hip",
+            "RightLeg_UpperActuator",
+            "RightLeg_LowerActuator",
+            "RightLeg_FootActuator"
+        ],
+        "totalTraitSlots": 100
+    },
+    "refitCosts": {
+        "id": "MWMechRefitCostsDataAsset:LDK_260_Std_RefitCosts"
+    },
+    "engineRating": 260,
+    "bXLEngine": false,
+    "baseChassisCost": 4423924,
+    "salvageShareCost": 37,
+    "bIsHeroMech": false,
+    "bIsDefaultVariant": false
+}

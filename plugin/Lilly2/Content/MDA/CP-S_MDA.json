@@ -1,0 +1,342 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Cyclops/Model/Cyclops_MDL.Cyclops_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "CP-S",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "CP-S",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 90,
+			"baseTons": 28,
+			"cBillBaseValue": 10000,
+			"cBillUpkeepCost": 70000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 430000,
+					"centerTorso": 2592000,
+					"sideTorso": 180000,
+					"arm": 22500,
+					"leg": 31500
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 40,
+			"baseCoolingRate": 1
+		},
+		"moveStats":
+		{
+			"topSpeed": 1800,
+			"minSpeed": 400,
+			"reverseTopSpeed": 1198.800048828125,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 71.6197509765625,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 90,
+				"pitch": 56.25
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -80,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 80,
+					"pitch": 30
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 225,
+				"pitch": 225
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -20,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 20,
+					"pitch": 30
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "endosteeltype",
+				"heatSinkType": "doubleheatsinktype",
+				"bArtemis": false,
+				"engineRating": 360,
+				"bXLEngine": true
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 4,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/Gauss_Standard_AmmoEquipment.Gauss_Standard_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/Gauss_Standard_AmmoEquipment.Gauss_Standard_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/Gauss_Standard_AmmoEquipment.Gauss_Standard_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/Gauss_Standard_AmmoEquipment.Gauss_Standard_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 58,
+			"leftTorso": 38,
+			"rightTorso": 38,
+			"leftArm": 30,
+			"rightArm": 30,
+			"leftLeg": 38,
+			"rightLeg": 38
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 116,
+			"leftTorso": 76,
+			"rightTorso": 76,
+			"leftArm": 60,
+			"rightArm": 60,
+			"leftLeg": 76,
+			"rightLeg": 76
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Assault.Cyclops.CP-S"
+	},
+	"chassisFullName": "Cyclops",
+	"variantName": "CP-S",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:CP-S_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Cyclops_Icon_UIX.Cyclops_Icon_UIX",
+	"targetComponent": "/Game/Objects/Mechs/Cyclops/Target/Cyclops_Target.Cyclops_Target_C",
+	"description": "The daughter of Colonel Charles Winston, Ariana was a mercenary brat, raised by the soldiers of the Eridani Light Horse. What could easily have turned into nepotism was anything but as she joined basic training after her nineteenth birthday. Forswearing even a hint of favoritism, her poor study skills left her struggling under the extra burden of too many watchful eyes. Despite an inauspicious start, through grit and determination she ultimately graduated top of her class. Upon taking command of the Seventh Striker Battalion, she chose a Cyclops- which she named Sleipnir- knowing the 'Mech's poor reputation would test her skills even further.",
+	"selectedWeaponHardPoints": [
+		"Head_EH1_Laser_mediumlaser",
+		"Torso_Left_BH1_gaussrifle",
+		"Torso_Center_MH1_srm4",
+		"Torso_Right_BH1_gaussrifle",
+		"Forearm_Right_EH1_mediumlaser",
+		"Forearm_Left_EH1_mediumlaser",
+		"Arm_Left_Hand_Actuator_Melee",
+		"Arm_Right_Hand_Actuator_Melee"
+	],
+	"blankWeaponHardPoints": [],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:EndoSteelStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Double"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "None"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 0,
+					"CenterTorso": 1,
+					"LeftTorso": 2,
+					"LeftArm": 7,
+					"LeftLeg": 2,
+					"RightTorso": 2,
+					"RightArm": 7,
+					"RightLeg": 2
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 4
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 9
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:CP_360_XL_RefitCosts"
+	},
+	"engineRating": 360,
+	"bXLEngine": true,
+	"baseChassisCost": 20396500,
+	"salvageShareCost": 47,
+	"bIsHeroMech": true,
+	"bIsDefaultVariant": false
+}

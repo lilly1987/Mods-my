@@ -1,0 +1,342 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Cataphract/Model/Cataphract_MDL.Cataphract_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "CTF-IM",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "CTF-IM",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 70,
+			"baseTons": 21,
+			"cBillBaseValue": 10000,
+			"cBillUpkeepCost": 50000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 390000,
+					"centerTorso": 1568000,
+					"sideTorso": 140000,
+					"arm": 17500,
+					"leg": 24500
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 40,
+			"baseCoolingRate": 1
+		},
+		"moveStats":
+		{
+			"topSpeed": 1800,
+			"minSpeed": 400,
+			"reverseTopSpeed": 1198.800048828125,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 68.181999206542969,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 85.5,
+				"pitch": 53.439998626708984
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -90,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 90,
+					"pitch": 30
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 213.75,
+				"pitch": 213.75
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -20,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 20,
+					"pitch": 30
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "standardstructuretype",
+				"heatSinkType": "standardheatsinktype",
+				"bArtemis": false,
+				"engineRating": 280,
+				"bXLEngine": true
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC5_Standard_AmmoEquipment.AC5_Standard_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC10_Standard_AmmoEquipment.AC10_Standard_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC5_Standard_AmmoEquipment.AC5_Standard_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC5_Standard_AmmoEquipment.AC5_Standard_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC10_Standard_AmmoEquipment.AC10_Standard_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 44,
+			"leftTorso": 30,
+			"rightTorso": 30,
+			"leftArm": 22,
+			"rightArm": 22,
+			"leftLeg": 30,
+			"rightLeg": 30
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 88,
+			"leftTorso": 60,
+			"rightTorso": 60,
+			"leftArm": 44,
+			"rightArm": 44,
+			"leftLeg": 60,
+			"rightLeg": 60
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Heavy.Cataphract.CTF-IM"
+	},
+	"chassisFullName": "Cataphract",
+	"variantName": "CTF-IM",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:CTF-IM_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Cataphract_Icon_UIX.Cataphract_Icon_UIX",
+	"targetComponent": "/Game/Objects/Mechs/Cataphract/Target/Cataphract_Target.Cataphract_Target_C",
+	"description": "Grigori Kovalenko was a loyal Capellan who viewed the Federated Suns initial incursions into Capellan territory as a cowardly sneak attack. Unwilling to participate on any attacks against the Capellans, he abandoned the Twelfth Star Guards and offered his services as a mercenary to the Capellan Confederation. With the fall of Tikonov in 3029 Grigori took the theft of the Cataphract design and production as his new cause. Styling himself as a knight of old, and a quest to take back all Cataphracts from non-Capellans, he quickly salvaging one for his own use. Replacing his aging Centurion and dubbing it Ilya Muromets, after the legendary knight of Slavic myth.",
+	"selectedWeaponHardPoints": [
+		"Torso_Left_EH1_mediumlaser",
+		"Torso_Right_BH1_autocannon10",
+		"Torso_Right_EH1_mediumlaser",
+		"Forearm_Right_EH2_smalllaser",
+		"Forearm_Right_BH1_autocannon5",
+		"Forearm_Left_BH1_autocannon5",
+		"Arm_Left_Hand_Actuator_Melee",
+		"Arm_Right_LowerArm_Actuator_Melee"
+	],
+	"blankWeaponHardPoints": [],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:StandardStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Single"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "None"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1,
+					"CenterTorso": 2,
+					"LeftTorso": 8,
+					"LeftArm": 4,
+					"LeftLeg": 2,
+					"RightTorso": 4,
+					"RightArm": 4,
+					"RightLeg": 2
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 1
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 8
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:CTF_280_XL_RefitCosts"
+	},
+	"engineRating": 280,
+	"bXLEngine": true,
+	"baseChassisCost": 11471033,
+	"salvageShareCost": 34,
+	"bIsHeroMech": true,
+	"bIsDefaultVariant": false
+}

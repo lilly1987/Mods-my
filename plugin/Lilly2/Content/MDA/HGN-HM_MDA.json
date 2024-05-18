@@ -1,0 +1,361 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Highlander/Model/Highlander_MDL.Highlander_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "HGN-HM",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "HGN-HM",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 90,
+			"baseTons": 23,
+			"cBillBaseValue": 10000,
+			"cBillUpkeepCost": 70000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 430000,
+					"centerTorso": 1980000,
+					"sideTorso": 180000,
+					"arm": 22500,
+					"leg": 31500
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 40,
+			"baseCoolingRate": 1
+		},
+		"moveStats":
+		{
+			"topSpeed": 1375,
+			"minSpeed": 400,
+			"reverseTopSpeed": 915.75,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 71.6197509765625,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 94.5,
+				"pitch": 59.060001373291016
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -90,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 90,
+					"pitch": 30
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 225,
+				"pitch": 225
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -20,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 20,
+					"pitch": 30
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "standardstructuretype",
+				"heatSinkType": "doubleheatsinktype",
+				"bArtemis": false,
+				"engineRating": 275,
+				"bXLEngine": true
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/Gauss_Standard_AmmoEquipment.Gauss_Standard_AmmoEquipment"
+					],
+					"jumpJets": 1
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 2
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 2,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/Gauss_Standard_AmmoEquipment.Gauss_Standard_AmmoEquipment"
+					],
+					"jumpJets": 2
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment"
+					],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 58,
+			"leftTorso": 38,
+			"rightTorso": 38,
+			"leftArm": 30,
+			"rightArm": 30,
+			"leftLeg": 38,
+			"rightLeg": 38
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 116,
+			"leftTorso": 76,
+			"rightTorso": 76,
+			"leftArm": 60,
+			"rightArm": 60,
+			"leftLeg": 76,
+			"rightLeg": 76
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Assault.Highlander.HGN-HM"
+	},
+	"chassisFullName": "Highlander",
+	"variantName": "HGN-HM",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:HGN-HM_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Highlander_Icon_UIX.Highlander_Icon_UIX",
+	"targetComponent": "/Game/Objects/Mechs/Highlander/Target/Highlander_Target.Highlander_Target_C",
+	"description": "Raised among mercenaries her entire life, Rhonda Snord was born to be a MechWarrior. When she was a child, her father, Cranston Snord, was discharged from the Wolf's Dragoons accused of abandoning his post to hunt for ancient artwork. He would go on to form his own mercenary unit 'Snords Irregulars' and built up a reputation as a treasure hunter and historian of the ancient Star League, building a collections of preserved artwork and texts from humanity's lost golden age. Although itself a relic of the Star League, Rhonda's 'Heavy Metal' was a beast of her own creation. Sporting a distinct Pink camo scheme and mounting external stadium speakers, Rhonda used Heavy Metal to flood the battlefield with late 20th century rock and heavy metal music as she took to the field.",
+	"selectedWeaponHardPoints": [
+		"Torso_Left_MH1_lrm20",
+		"Torso_Left_MH2_srm6",
+		"Forearm_Right_BH1_gaussrifle",
+		"Forearm_Left_EH1_mediumlaser",
+		"Forearm_Left_EH2_mediumlaser",
+		"Forearm_Left_EH3_mediumlaser",
+		"Arm_Left_Hand_Actuator_Melee",
+		"Arm_Right_LowerArm_Actuator_Melee"
+	],
+	"blankWeaponHardPoints": [],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:StandardStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Double"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "Equipment.JumpJets.Class1"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1,
+					"CenterTorso": 1,
+					"LeftTorso": 2,
+					"LeftArm": 5,
+					"LeftLeg": 2,
+					"RightTorso": 7,
+					"RightArm": 2,
+					"RightLeg": 2
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:JumpJetClass1_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 0,
+					"CenterTorso": 1,
+					"LeftTorso": 2,
+					"RightTorso": 2,
+					"LeftArm": 0,
+					"RightArm": 0,
+					"LeftLeg": 0,
+					"RightLeg": 0
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 1
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 9
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:HGN_270_XL_RefitCosts"
+	},
+	"engineRating": 275,
+	"bXLEngine": true,
+	"baseChassisCost": 15745300,
+	"salvageShareCost": 46,
+	"bIsHeroMech": true,
+	"bIsDefaultVariant": false
+}

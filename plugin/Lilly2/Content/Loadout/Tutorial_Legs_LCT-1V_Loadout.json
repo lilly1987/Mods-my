@@ -1,0 +1,157 @@
+{
+	"mechDataAssetId":
+	{
+		"id": "MWMechDataAsset:LCT-1V-TUTORIAL_MDA"
+	},
+	"customName": "",
+	"skinCustomization":
+	{
+		"mechSkinAssetId":
+		{
+			"id": "MWUnitSkinAsset:Locust_Tutorial_SKN"
+		},
+		"customMechSkinId": "None",
+		"bPrimaryColorSet": false,
+		"primaryColor":
+		{
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"a": 0
+		},
+		"bSecondaryColorSet": false,
+		"secondaryColor":
+		{
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"a": 0
+		},
+		"bTertiaryColorSet": false,
+		"tertiaryColor":
+		{
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"a": 0
+		}
+	},
+	"currentStructure":
+	{
+		"head": 999,
+		"centerTorso": 999,
+		"leftTorso": 999,
+		"rightTorso": 999,
+		"leftArm": 999,
+		"rightArm": 999,
+		"leftLeg": 4,
+		"rightLeg": 4
+	},
+	"currentArmor":
+	{
+		"head": 999,
+		"centerTorso": 999,
+		"leftTorso": 999,
+		"rightTorso": 999,
+		"leftArm": 999,
+		"rightArm": 999,
+		"leftLeg": 0,
+		"rightLeg": 0
+	},
+	"currentRearArmor":
+	{
+		"centerTorsoRear": 999,
+		"leftTorsoRear": 999,
+		"rightTorsoRear": 999
+	},
+	"installedArmor":
+	{
+		"head": 999,
+		"centerTorso": 999,
+		"leftTorso": 999,
+		"rightTorso": 999,
+		"leftArm": 999,
+		"rightArm": 999,
+		"leftLeg": 99,
+		"rightLeg": 99
+	},
+	"installedRearArmor":
+	{
+		"centerTorsoRear": 999,
+		"leftTorsoRear": 999,
+		"rightTorsoRear": 999
+	},
+	"installedWeapons": [
+		{
+			"hardpointSlotId": "Torso_Center_EH1_mediumlaser",
+			"weaponData":
+			{
+				"weaponId":
+				{
+					"id": "MWTraceWeaponDataAsset:Mediumlaser"
+				},
+				"healthState": "Healthy"
+			}
+		},
+		{
+			"hardpointSlotId": "Upperarm_Right_BH1_machinegun",
+			"weaponData":
+			{
+				"weaponId":
+				{
+					"id": "MWTraceWeaponDataAsset:Machinegun"
+				},
+				"healthState": "Healthy"
+			}
+		},
+		{
+			"hardpointSlotId": "Upperarm_Left_BH1_machinegun",
+			"weaponData":
+			{
+				"weaponId":
+				{
+					"id": "MWTraceWeaponDataAsset:Machinegun"
+				},
+				"healthState": "Healthy"
+			}
+		}
+	],
+	"weaponGroupInfo":
+	{
+		"weaponGroups": [
+			{
+				"hardpointSlotId": "Torso_Center_EH1_mediumlaser",
+				"bWeaponGroup1": false,
+				"bWeaponGroup2": true,
+				"bWeaponGroup3": false,
+				"bWeaponGroup4": false,
+				"bWeaponGroup5": false,
+				"bWeaponGroup6": false
+			},
+			{
+				"hardpointSlotId": "Upperarm_Right_BH1_machinegun",
+				"bWeaponGroup1": true,
+				"bWeaponGroup2": false,
+				"bWeaponGroup3": false,
+				"bWeaponGroup4": false,
+				"bWeaponGroup5": false,
+				"bWeaponGroup6": false
+			},
+			{
+				"hardpointSlotId": "Upperarm_Left_BH1_machinegun",
+				"bWeaponGroup1": true,
+				"bWeaponGroup2": false,
+				"bWeaponGroup3": false,
+				"bWeaponGroup4": false,
+				"bWeaponGroup5": false,
+				"bWeaponGroup6": false
+			}
+		],
+		"chainFireGroups": []
+	},
+	"equipment":
+	{
+		"mechPartEquipment": []
+	},
+	"installedTraits": []
+}

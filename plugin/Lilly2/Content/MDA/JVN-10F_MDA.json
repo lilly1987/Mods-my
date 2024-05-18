@@ -1,0 +1,341 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Javelin/Model/Javelin_MDL.Javelin_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "JVN-10F",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "JVN-10F",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 30,
+			"baseTons": 12,
+			"cBillBaseValue": 10000,
+			"cBillUpkeepCost": 20000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 310000,
+					"centerTorso": 432000,
+					"sideTorso": 60000,
+					"arm": 7500,
+					"leg": 10500
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 37.200000762939453,
+			"baseCoolingRate": 0.72000002861022949
+		},
+		"moveStats":
+		{
+			"topSpeed": 2700,
+			"minSpeed": 400,
+			"reverseTopSpeed": 1798.199951171875,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 136.36399841308594,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 162,
+				"pitch": 101.25
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -110,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 110,
+					"pitch": 30
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 405,
+				"pitch": 405
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -35,
+					"pitch": -25
+				},
+				"high":
+				{
+					"yaw": 35,
+					"pitch": 25
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "standardstructuretype",
+				"heatSinkType": "standardheatsinktype",
+				"bArtemis": false,
+				"engineRating": 180,
+				"bXLEngine": false
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 2
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 2,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 2,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 2
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 2
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 20,
+			"leftTorso": 14,
+			"rightTorso": 14,
+			"leftArm": 10,
+			"rightArm": 10,
+			"leftLeg": 14,
+			"rightLeg": 14
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 40,
+			"leftTorso": 28,
+			"rightTorso": 28,
+			"leftArm": 20,
+			"rightArm": 20,
+			"leftLeg": 28,
+			"rightLeg": 28
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Light.Javelin.JVN-10F"
+	},
+	"chassisFullName": "Javelin",
+	"variantName": "JVN-10F",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:JVN-10F_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Javelin_Icon_UIX.Javelin_Icon_UIX",
+	"targetComponent": "/Game/Objects/Mechs/Javelin/Target/Javelin_Target.Javelin_Target_C",
+	"description": "In 2751 Stormvanger Assemblies introduced the Javelin as a recon ’Mech with the firepower to survive being spotted. By the opening shots of the First Succession War,the Javelin had not yet been fully integrated into most regiments, but centuries of warfare have proven reliability of the design. Despite the destruction of its only production facility the Javelin remains a popular ’Mech, especially in the regiments of House Davion. It has gained a reputation as a versatile and mobile ’Mech that can appear almost out of nowhere, giving rise to the aphorism “sneaky as a Javelin.”",
+	"selectedWeaponHardPoints": [
+		"Torso_Left_EH1_mediumlaser",
+		"Torso_Left_EH2_mediumlaser",
+		"Torso_Right_EH1_mediumlaser",
+		"Torso_Right_EH2_mediumlaser",
+		"Arm_Left_Hand_Actuator_Melee",
+		"Arm_Right_Hand_Actuator_Melee"
+	],
+	"blankWeaponHardPoints": [
+		"Torso_Center_AB1_blank"
+	],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:StandardStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Single"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "Equipment.JumpJets.Class5"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1,
+					"CenterTorso": 0,
+					"LeftTorso": 10,
+					"LeftArm": 8,
+					"LeftLeg": 0,
+					"RightTorso": 10,
+					"RightArm": 8,
+					"RightLeg": 0
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:JumpJetClass5_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 0,
+					"CenterTorso": 2,
+					"LeftTorso": 0,
+					"RightTorso": 0,
+					"LeftArm": 0,
+					"RightArm": 0,
+					"LeftLeg": 2,
+					"RightLeg": 2
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 6
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:JVN_180_Std_RefitCosts"
+	},
+	"engineRating": 180,
+	"bXLEngine": false,
+	"baseChassisCost": 1779700,
+	"salvageShareCost": 14,
+	"bIsHeroMech": false,
+	"bIsDefaultVariant": false
+}

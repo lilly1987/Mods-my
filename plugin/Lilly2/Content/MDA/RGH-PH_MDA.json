@@ -1,0 +1,111 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/DLC6/Objects/Mechs/Roughneck/Model/Roughneck_MDL.Roughneck_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "RGH-PH",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "RGH-PH",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats": null,
+	"healthDataStats": null,
+	"mechType":
+	{
+		"tagName": "Mech.Heavy.Roughneck.RGH-PH"
+	},
+	"chassisFullName": "Roughneck",
+	"variantName": "RGH-PH",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:RGH-PH_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Roughneck_Icon_UIX.Roughneck_Icon_UIX",
+	"targetComponent": "/Game/DLC6/Objects/Mechs/Roughneck/Target/Roughneck_Target.Roughneck_Target_C",
+	"description": "",
+	"selectedWeaponHardPoints": [
+		"Torso_Left_MH1_srm6",
+		"Torso_Left_MH2_srm6",
+		"Torso_Center_MH1_mrm10",
+		"Torso_Right_BH1_lbxautocannon5",
+		"Forearm_Right_BH3_lbxautocannon5",
+		"Forearm_Left_EH2_mediumpulselaser",
+		"Forearm_Left_EH1_mediumpulselaser",
+		"Arm_Left_LowerArm_Actuator_Melee",
+		"Arm_Right_LowerArm_Actuator_Melee"
+	],
+	"blankWeaponHardPoints": [
+		"Centre_Center_BLANK_blank"
+	],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:EndoSteelStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Double"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "None"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1,
+					"CenterTorso": 1,
+					"LeftTorso": 1,
+					"RightTorso": 1,
+					"LeftArm": 1,
+					"RightArm": 1,
+					"LeftLeg": 1,
+					"RightLeg": 1
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 0
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:MechRefitCostsDefault"
+	},
+	"engineRating": 260,
+	"bXLEngine": true,
+	"baseChassisCost": 0,
+	"salvageShareCost": 0,
+	"bIsHeroMech": true,
+	"bIsDefaultVariant": false
+}

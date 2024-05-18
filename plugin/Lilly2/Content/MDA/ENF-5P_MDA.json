@@ -1,0 +1,344 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Enforcer/Model/Enforcer_MDL.Enforcer_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "ENF-5P",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "ENF-5P",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 50,
+			"baseTons": 17.5,
+			"cBillBaseValue": 10000,
+			"cBillUpkeepCost": 30000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 350000,
+					"centerTorso": 1000000,
+					"sideTorso": 100000,
+					"arm": 12500,
+					"leg": 17500
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 40,
+			"baseCoolingRate": 1
+		},
+		"moveStats":
+		{
+			"topSpeed": 2250,
+			"minSpeed": 400,
+			"reverseTopSpeed": 1498.5,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 85.943702697753906,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 108,
+				"pitch": 67.5
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -125,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 125,
+					"pitch": 30
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 270,
+				"pitch": 270
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -35,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 35,
+					"pitch": 30
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "standardstructuretype",
+				"heatSinkType": "doubleheatsinktype",
+				"bArtemis": false,
+				"engineRating": 250,
+				"bXLEngine": true
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [],
+					"jumpJets": 1
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC5_Ultra_AmmoEquipment.AC5_Ultra_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC5_Ultra_AmmoEquipment.AC5_Ultra_AmmoEquipment"
+					],
+					"jumpJets": 1
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 32,
+			"leftTorso": 24,
+			"rightTorso": 24,
+			"leftArm": 16,
+			"rightArm": 16,
+			"leftLeg": 24,
+			"rightLeg": 24
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 64,
+			"leftTorso": 48,
+			"rightTorso": 48,
+			"leftArm": 32,
+			"rightArm": 32,
+			"leftLeg": 48,
+			"rightLeg": 48
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Medium.Enforcer.ENF-5P"
+	},
+	"chassisFullName": "Enforcer",
+	"variantName": "ENF-5P",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:ENF-5P_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Enforcer_Icon_UIX.Enforcer_Icon_UIX",
+	"targetComponent": "/Game/Objects/Mechs/Enforcer/Target/Enforcer_Target.Enforcer_Target_C",
+	"description": "Already in the midst of a veritable love affair with autocannon platforms, the Federated Suns stumbled upon forgotten blueprints for an unbuilt autocannon-armed BattleMech and used it as the basis for a new design. The Enforcer was rushed through development and commissioned in 2777, and over the course of the Succession Wars became a workhorse of House Davion.",
+	"selectedWeaponHardPoints": [
+		"Torso_Left_EH1_smalllaser",
+		"Forearm_Right_BH1_ultraautocannon5",
+		"Forearm_Left_BH1_ultraautocannon5",
+		"Arm_Left_BarrelFist_Actuator_Melee",
+		"Arm_Right_BarrelFist_Actuator_Melee"
+	],
+	"blankWeaponHardPoints": [
+		"Forearm_Right_BB1_blank",
+		"Forearm_Left_BB1_blank"
+	],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:StandardStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Double"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "Equipment.JumpJets.Class4"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1,
+					"CenterTorso": 2,
+					"LeftTorso": 7,
+					"LeftArm": 5,
+					"LeftLeg": 2,
+					"RightTorso": 8,
+					"RightArm": 5,
+					"RightLeg": 2
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:JumpJetClass4_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 0,
+					"CenterTorso": 0,
+					"LeftTorso": 1,
+					"RightTorso": 1,
+					"LeftArm": 0,
+					"RightArm": 0,
+					"LeftLeg": 0,
+					"RightLeg": 0
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 8
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:ENF_250_XL_RefitCosts"
+	},
+	"engineRating": 250,
+	"bXLEngine": true,
+	"baseChassisCost": 7212500,
+	"salvageShareCost": 25,
+	"bIsHeroMech": false,
+	"bIsDefaultVariant": false
+}

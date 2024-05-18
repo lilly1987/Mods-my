@@ -1,0 +1,342 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Kingcrab/Model/Kingcrab_MDL.Kingcrab_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "KGC-CAR",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "KGC-CAR",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 100,
+			"baseTons": 25.5,
+			"cBillBaseValue": 100000,
+			"cBillUpkeepCost": 70000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 450000,
+					"centerTorso": 2400000,
+					"sideTorso": 200000,
+					"arm": 25000,
+					"leg": 35000
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 40,
+			"baseCoolingRate": 1
+		},
+		"moveStats":
+		{
+			"topSpeed": 1350,
+			"minSpeed": 400,
+			"reverseTopSpeed": 899.0999755859375,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 46.409599304199219,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 67.5,
+				"pitch": 42.189998626708984
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -100,
+					"pitch": -35
+				},
+				"high":
+				{
+					"yaw": 100,
+					"pitch": 35
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 146.25,
+				"pitch": 146.25
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": 0,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 0,
+					"pitch": 30
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "standardstructuretype",
+				"heatSinkType": "doubleheatsinktype",
+				"bArtemis": true,
+				"engineRating": 300,
+				"bXLEngine": true
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC5_Ultra_Half_AmmoEquipment.AC5_Ultra_Half_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC5_Ultra_AmmoEquipment.AC5_Ultra_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC5_Ultra_AmmoEquipment.AC5_Ultra_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC5_Ultra_AmmoEquipment.AC5_Ultra_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/AC5_Ultra_AmmoEquipment.AC5_Ultra_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 62,
+			"leftTorso": 42,
+			"rightTorso": 42,
+			"leftArm": 34,
+			"rightArm": 34,
+			"leftLeg": 42,
+			"rightLeg": 42
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 124,
+			"leftTorso": 84,
+			"rightTorso": 84,
+			"leftArm": 68,
+			"rightArm": 68,
+			"leftLeg": 84,
+			"rightLeg": 84
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Assault.Kingcrab.KGC-CAR"
+	},
+	"chassisFullName": "King Crab",
+	"variantName": "KGC-CAR",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:KGC-CAR_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Kingcrab_Icon_UIX.Kingcrab_Icon_UIX",
+	"targetComponent": "/Game/Objects/Mechs/Kingcrab/Target/Kingcrab_Target.Kingcrab_Target_C",
+	"description": "Lionell Stanz was once a respected member of Steiner High Command. His ardent opposition to merging the Lyran Commonwealth with the Federated Suns became politically isolating, and in frustration he resigned. Those who knew him during his service never dreamed he'd go this far, and had thought he'd quietly retired on Summer. Apparently he found fast friends among the Sky Separatists there, and a new BattleMech. 'Carapace' is clearly a product of Lyran battle doctrine, as big as they come and armed to the teeth.",
+	"selectedWeaponHardPoints": [
+		"Torso_Left_MH1_lrm15",
+		"Torso_Right_MH1_lrm15",
+		"Forearm_Right_BH1_ultraautocannon5",
+		"Forearm_Right_BH2_ultraautocannon5",
+		"Forearm_Left_BH1_ultraautocannon5",
+		"Forearm_Left_BH2_ultraautocannon5"
+	],
+	"blankWeaponHardPoints": [],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:StandardStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Double"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "None"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1,
+					"CenterTorso": 2,
+					"LeftTorso": 6,
+					"LeftArm": 2,
+					"LeftLeg": 2,
+					"RightTorso": 6,
+					"RightArm": 2,
+					"RightLeg": 2
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 2
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 8
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:KGC_300_XL_RefitCosts"
+	},
+	"engineRating": 300,
+	"bXLEngine": true,
+	"baseChassisCost": 19480000,
+	"salvageShareCost": 50,
+	"bIsHeroMech": true,
+	"bIsDefaultVariant": false
+}

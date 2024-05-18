@@ -1,0 +1,353 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Mauler/Model/Mauler_MDL.Mauler_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "MAL-MX90-S",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "MAL-MX90-S",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 90,
+			"baseTons": 36.5,
+			"cBillBaseValue": 100000,
+			"cBillUpkeepCost": 10000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 430000,
+					"centerTorso": 2232000,
+					"sideTorso": 180000,
+					"arm": 22500,
+					"leg": 31500
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 40,
+			"baseCoolingRate": 1
+		},
+		"moveStats":
+		{
+			"topSpeed": 1550,
+			"minSpeed": 400,
+			"reverseTopSpeed": 1032.300048828125,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 50.420303344726562,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 63,
+				"pitch": 39.380001068115234
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -70,
+					"pitch": -20
+				},
+				"high":
+				{
+					"yaw": 70,
+					"pitch": 20
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 157.5,
+				"pitch": 157.5
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -25,
+					"pitch": -35
+				},
+				"high":
+				{
+					"yaw": 25,
+					"pitch": 35
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "standardstructuretype",
+				"heatSinkType": "doubleheatsinktype",
+				"bArtemis": false,
+				"engineRating": 310,
+				"bXLEngine": false
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 2,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/MachineGun_Standard_AmmoEquipment.MachineGun_Standard_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/LRM_Half_AmmoEquipment.LRM_Half_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/MachineGun_Standard_AmmoEquipment.MachineGun_Standard_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/MachineGun_Standard_AmmoEquipment.MachineGun_Standard_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [
+						"/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/LRM_AmmoEquipment.LRM_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/MachineGun_Standard_AmmoEquipment.MachineGun_Standard_AmmoEquipment",
+						"/Game/Objects/Weapons/_common/AmmoEquipment/MachineGun_Standard_AmmoEquipment.MachineGun_Standard_AmmoEquipment"
+					],
+					"jumpJets": 0
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 58,
+			"leftTorso": 38,
+			"rightTorso": 38,
+			"leftArm": 30,
+			"rightArm": 30,
+			"leftLeg": 38,
+			"rightLeg": 38
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 116,
+			"leftTorso": 76,
+			"rightTorso": 76,
+			"leftArm": 60,
+			"rightArm": 60,
+			"leftLeg": 76,
+			"rightLeg": 76
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Assault.Mauler.MAL-MX90-S"
+	},
+	"chassisFullName": "Mauler",
+	"variantName": "MAL-MX90-S",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:MAL-MX90-S_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Mauler_Icon_UIX.Mauler_Icon_UIX",
+	"targetComponent": "/Game/Objects/Mechs/Mauler/Target/Mauler_Target.Mauler_Target_C",
+	"description": "The Mauler technically began its life as the Daboku, originally deployed along the Draconis Combine border in 3038. Codenamed the Mauler by Federated Commonwealth forces, the 'Mech was an utter embarrassment for Kurita and a death trap for any MechWarrior unlucky enough to be saddled with it. When the chassis was redesigned in the 3040's the choice was made to adopt the Mauler codename as its official moniker, mostly in an effort to avoid the stigma of its previous failures. The Mauler's extreme-range weapons allow it to inflict serious damage before most enemy weapons are even in range.",
+	"selectedWeaponHardPoints": [
+		"Torso_Left_BH1_autocannon2",
+		"Torso_Left_BH2_autocannon2",
+		"Torso_Left_BH3_autocannon2",
+		"Torso_Left_MH1_lrm10",
+		"Torso_Right_BH1_autocannon2",
+		"Torso_Right_BH2_autocannon2",
+		"Torso_Right_BH3_autocannon2",
+		"Torso_Right_MH1_lrm10",
+		"Forearm_Right_EH1_erlargelaser",
+		"Forearm_Left_EH1_erlargelaser",
+		"Arm_Left_LowerArm_Actuator_Melee",
+		"Arm_Right_LowerArm_Actuator_Melee"
+	],
+	"blankWeaponHardPoints": [
+		"Torso_Center_S_Bolton_Blank"
+	],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:StandardStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Double"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "None"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1,
+					"CenterTorso": 2,
+					"LeftTorso": 7,
+					"LeftArm": 7,
+					"LeftLeg": 2,
+					"RightTorso": 7,
+					"RightArm": 7,
+					"RightLeg": 2
+				}
+			},
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+				},
+				"slotCounts":
+				{
+					"CenterTorso": 2
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 8
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:MAL_270_Std_RefitCosts"
+	},
+	"engineRating": 310,
+	"bXLEngine": false,
+	"baseChassisCost": 7309300,
+	"salvageShareCost": 46,
+	"bIsHeroMech": false,
+	"bIsDefaultVariant": false
+}

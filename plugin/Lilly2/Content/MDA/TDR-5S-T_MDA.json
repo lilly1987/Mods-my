@@ -1,0 +1,329 @@
+{
+	"mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Thunderbolt/Model/Thunderbolt_MDL.Thunderbolt_MDL'",
+	"bReadFromFileOnSave": true,
+	"mechStats":
+	{
+		"keyName": "TDR-5S-T",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechStats.MechStats'"
+	},
+	"healthStats":
+	{
+		"keyName": "TDR-5S-T",
+		"table": "DataTable'/Game/Objects/Mechs/_common/Config/MechHealthStats.MechHealthStats'"
+	},
+	"mechDataStats":
+	{
+		"baseStats":
+		{
+			"tons": 65,
+			"baseTons": 26,
+			"cBillBaseValue": 10000,
+			"cBillUpkeepCost": 50000,
+			"repairData":
+			{
+				"costPerArmorPoint": 200,
+				"costPerStructurePoint": 400,
+				"partReplacementCost":
+				{
+					"head": 380000,
+					"centerTorso": 1352000,
+					"sideTorso": 130000,
+					"arm": 16250,
+					"leg": 22750
+				}
+			},
+			"refitCosts":
+			{
+				"id": ""
+			},
+			"baseHeatCapacity": 40,
+			"baseCoolingRate": 1
+		},
+		"moveStats":
+		{
+			"topSpeed": 1800,
+			"minSpeed": 400,
+			"reverseTopSpeed": 1198.800048828125,
+			"accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+			"decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+			"slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+			"turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+			"turnSpeed": 85.943702697753906,
+			"jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+			"jumpJetLandingRecoveryCurve": "None",
+			"fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+		},
+		"torsoStats":
+		{
+			"torsoTwistRate":
+			{
+				"yaw": 108,
+				"pitch": 67.5
+			},
+			"torsoTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -80,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 80,
+					"pitch": 30
+				}
+			},
+			"armTwistRate":
+			{
+				"yaw": 270,
+				"pitch": 270
+			},
+			"armTwistBounds":
+			{
+				"bIsYawUnbound": false,
+				"bIsPitchUnbound": false,
+				"low":
+				{
+					"yaw": -20,
+					"pitch": -30
+				},
+				"high":
+				{
+					"yaw": 20,
+					"pitch": 30
+				}
+			}
+		},
+		"powerStats":
+		{
+			"powerInitializationTime": 8,
+			"powerUpTime": 3,
+			"powerDownTime": 3,
+			"torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+			"torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+			"armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+			"armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+			"legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+			"legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+		},
+		"mechImportData":
+		{
+			"baseMechInformation":
+			{
+				"armorType": "standardarmortype",
+				"structureType": "standardstructuretype",
+				"heatSinkType": "standardheatsinktype",
+				"bArtemis": false,
+				"engineRating": 260,
+				"bXLEngine": false
+			},
+			"componentInformation":
+			{
+				"head":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 1,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"centerTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 2,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 3,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightTorso":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 3,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightArm":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 0,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"leftLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 2,
+					"componentAmmo": [],
+					"jumpJets": 0
+				},
+				"rightLeg":
+				{
+					"bCASE": false,
+					"targetingComputer": 0,
+					"bECM": false,
+					"bBeagleActiveProbe": false,
+					"heatSinks": 2,
+					"componentAmmo": [],
+					"jumpJets": 0
+				}
+			}
+		}
+	},
+	"healthDataStats":
+	{
+		"maxStructure":
+		{
+			"head": 15,
+			"centerTorso": 42,
+			"leftTorso": 30,
+			"rightTorso": 30,
+			"leftArm": 20,
+			"rightArm": 20,
+			"leftLeg": 30,
+			"rightLeg": 30
+		},
+		"maxArmor":
+		{
+			"head": 30,
+			"centerTorso": 84,
+			"leftTorso": 60,
+			"rightTorso": 60,
+			"leftArm": 40,
+			"rightArm": 40,
+			"leftLeg": 60,
+			"rightLeg": 60
+		}
+	},
+	"mechType":
+	{
+		"tagName": "Mech.Heavy.Thunderbolt.TDR-5S-T"
+	},
+	"chassisFullName": "Thunderbolt",
+	"variantName": "TDR-5S-T",
+	"defaultMech":
+	{
+		"id": "MWMechLoadoutAsset:TDR-5S-T_Loadout"
+	},
+	"mechTexture": "/Game/UI/Textures/Battlemechs/Thunderbolt_Icon_UIX.Thunderbolt_Icon_UIX",
+	"targetComponent": "/Game/Objects/Mechs/Thunderbolt/Target/Thunderbolt_Target.Thunderbolt_Target_C",
+	"description": "Mary Tallman grew up around 'Mechs. Her father was a house Tech with the 22nd Avalon Hussars, and in her late teens, she built her own locust from spare parts. Being comfortable inside a 'Mech had its downside, and she chaffed under the classwork at NAIS, instead leaving and enlisting with the 22nd Avalon Hussars. With time two things became apparent, Mary was a competent officer and unlikely to see promotion past Company Commander. After 3 years with the Robinson DMM, she was offered her own command of the Bremmon Draconis March Militia, and quickly turned that troublesome unit around. An expert at atmospheric drops, it's no surprise Mary's 'Mech is one designed for planetary assault and her constant tinkering means that her Thunderbolt is anything but standard.",
+	"selectedWeaponHardPoints": [
+		"Torso_Left_EH1_mediumlaser",
+		"Torso_Left_EH2_mediumlaser",
+		"Torso_Left_EH3_mediumlaser",
+		"Torso_Left_EH4_mediumlaser",
+		"Torso_Right_EH1_mediumlaser",
+		"Torso_Right_EH2_mediumlaser",
+		"Torso_Right_EH3_mediumlaser",
+		"Torso_Right_EH4_mediumlaser",
+		"Forearm_Right_EH1_largelaser",
+		"Arm_Left_Hand_Actuator_Melee",
+		"Arm_Right_Hand_Actuator_Melee"
+	],
+	"blankWeaponHardPoints": [
+		"Missile_Right_MB1_blank"
+	],
+	"bRecalculateFreeSlotsOnSave": true,
+	"equipmentAllocation":
+	{
+		"armorDataAssetId":
+		{
+			"id": "MWArmorDataAsset:StandardArmor"
+		},
+		"structureDataAssetId":
+		{
+			"id": "MWStructureDataAsset:StandardStructure"
+		},
+		"allowedHeatSinkType":
+		{
+			"tagName": "Equipment.HeatSinks.Single"
+		},
+		"allowedJumpJetType":
+		{
+			"tagName": "None"
+		},
+		"slotData": [
+			{
+				"slotTypeDataAssetId":
+				{
+					"id": "MWSlotTypeDataAsset:General_SlotType"
+				},
+				"slotCounts":
+				{
+					"Head": 1,
+					"CenterTorso": 2,
+					"LeftTorso": 8,
+					"LeftArm": 8,
+					"LeftLeg": 2,
+					"RightTorso": 8,
+					"RightArm": 6,
+					"RightLeg": 2
+				}
+			}
+		],
+		"internalEquipment": [
+			"LifeSupport",
+			"Sensors",
+			"Cockpit",
+			"Gyro",
+			"LeftArm_Shoulder",
+			"LeftArm_UpperActuator",
+			"RightArm_Shoulder",
+			"RightArm_UpperActuator",
+			"LeftLeg_Hip",
+			"LeftLeg_UpperActuator",
+			"LeftLeg_LowerActuator",
+			"LeftLeg_FootActuator",
+			"RightLeg_Hip",
+			"RightLeg_UpperActuator",
+			"RightLeg_LowerActuator",
+			"RightLeg_FootActuator"
+		],
+		"totalTraitSlots": 8
+	},
+	"refitCosts":
+	{
+		"id": "MWMechRefitCostsDataAsset:TDR_260_Std_RefitCosts"
+	},
+	"engineRating": 260,
+	"bXLEngine": false,
+	"baseChassisCost": 4324924,
+	"salvageShareCost": 34,
+	"bIsHeroMech": true,
+	"bIsDefaultVariant": false
+}

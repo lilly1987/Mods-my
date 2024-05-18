@@ -1,0 +1,168 @@
+{
+    "mechDataAssetId": {
+        "id": "MWMechDataAsset:CDA-3C_MDA_Lilly"
+    },
+    "customName": "",
+    "skinCustomization": {
+        "mechSkinAssetId": {
+            "id": "MWUnitSkinAsset:Cicada_Applejack_SKN"
+        },
+        "customMechSkinId": "None",
+        "bPrimaryColorSet": true,
+        "primaryColor": {
+            "r": 0.04373502731323242,
+            "g": 0.0802198275923729,
+            "b": 0.04373502731323242,
+            "a": 1
+        },
+        "bSecondaryColorSet": true,
+        "secondaryColor": {
+            "r": 0.06847816705703735,
+            "g": 0.17464742064476013,
+            "b": 0.15292617678642273,
+            "a": 1
+        },
+        "bTertiaryColorSet": true,
+        "tertiaryColor": {
+            "r": 0.06847816705703735,
+            "g": 0.17464742064476013,
+            "b": 0.15292617678642273,
+            "a": 1
+        }
+    },
+    "currentStructure": {
+        "head": 20000,
+        "centerTorso": 20000,
+        "leftTorso": 20000,
+        "rightTorso": 20000,
+        "leftArm": 20000,
+        "rightArm": 20000,
+        "leftLeg": 20000,
+        "rightLeg": 20000
+    },
+    "currentArmor": {
+        "head": 20000,
+        "centerTorso": 20000,
+        "leftTorso": 20000,
+        "rightTorso": 20000,
+        "leftArm": 20000,
+        "rightArm": 20000,
+        "leftLeg": 20000,
+        "rightLeg": 20000
+    },
+    "currentRearArmor": {
+        "centerTorsoRear": 20000,
+        "leftTorsoRear": 20000,
+        "rightTorsoRear": 20000
+    },
+    "installedArmor": {
+        "head": 20000,
+        "centerTorso": 20000,
+        "leftTorso": 20000,
+        "rightTorso": 20000,
+        "leftArm": 20000,
+        "rightArm": 20000,
+        "leftLeg": 20000,
+        "rightLeg": 20000
+    },
+    "installedRearArmor": {
+        "centerTorsoRear": 20000,
+        "leftTorsoRear": 20000,
+        "rightTorsoRear": 20000
+    },
+    "installedWeapons": [
+        {
+            "hardpointSlotId": "Torso_Left_BH1_machinegun",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWTraceWeaponDataAsset:Machinegun"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Torso_Right_EH2_ppc",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWProjectileWeaponDataAsset:Ppc"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Torso_Right_BH1_machinegun",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWTraceWeaponDataAsset:Machinegun"
+                },
+                "healthState": "Healthy"
+            }
+        }
+    ],
+    "weaponGroupInfo": {
+        "weaponGroups": [
+            {
+                "hardpointSlotId": "Torso_Left_BH1_machinegun",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": true,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Torso_Right_EH2_ppc",
+                "bWeaponGroup1": true,
+                "bWeaponGroup2": false,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Torso_Right_BH1_machinegun",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": true,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            }
+        ],
+        "chainFireGroups": []
+    },
+    "equipment": {
+        "mechPartEquipment": [
+            {
+                "mechPart": "CenterTorso",
+                "slottedEquipment": [
+                    {
+                        "slotId": 0,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWHeatSinkDataAsset:SingleHeatSink"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    },
+                    {
+                        "slotId": 1,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWAmmoDataAsset:Machinegun_Standard_AmmoEquipment"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "installedTraits": []
+}

@@ -1,0 +1,287 @@
+{
+    "mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Annihilator/Model/Annihilator_MDL.Annihilator_MDL'",
+    "bReadFromFileOnSave": true,
+    "mechStats": {
+        "keyName": "ANH-1E",
+        "table": "DataTable'/Lilly2/Stats/MechStats_Lilly.MechStats_Lilly'"
+    },
+    "healthStats": {
+        "keyName": "ANH-1E",
+        "table": "DataTable'/Lilly2/Stats/MechHealthStats_Lilly.MechHealthStats_Lilly'"
+    },
+    "mechDataStats": {
+        "baseStats": {
+            "tons": 100,
+            "baseTons": -2000,
+            "cBillBaseValue": 10000,
+            "cBillUpkeepCost": 70000,
+            "repairData": {
+                "costPerArmorPoint": 200,
+                "costPerStructurePoint": 400,
+                "partReplacementCost": {
+                    "head": 450000,
+                    "centerTorso": 1600000,
+                    "sideTorso": 200000,
+                    "arm": 25000,
+                    "leg": 35000
+                }
+            },
+            "refitCosts": {
+                "id": ""
+            },
+            "baseHeatCapacity": 38,
+            "baseCoolingRate": 0.800000011920929
+        },
+        "moveStats": {
+            "topSpeed": 900,
+            "minSpeed": 400,
+            "reverseTopSpeed": 599.4000244140625,
+            "accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+            "decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+            "slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+            "turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+            "turnSpeed": 46.40959930419922,
+            "jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+            "jumpJetLandingRecoveryCurve": "None",
+            "fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+        },
+        "torsoStats": {
+            "torsoTwistRate": {
+                "yaw": 58.5,
+                "pitch": 36.560001373291016
+            },
+            "torsoTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -90,
+                    "pitch": -30
+                },
+                "high": {
+                    "yaw": 90,
+                    "pitch": 30
+                }
+            },
+            "armTwistRate": {
+                "yaw": 146.25,
+                "pitch": 146.25
+            },
+            "armTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -40,
+                    "pitch": -25
+                },
+                "high": {
+                    "yaw": 40,
+                    "pitch": 25
+                }
+            }
+        },
+        "powerStats": {
+            "powerInitializationTime": 8,
+            "powerUpTime": 3,
+            "powerDownTime": 3,
+            "torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+            "torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+            "armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+            "armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+            "legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+            "legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+        },
+        "mechImportData": {
+            "baseMechInformation": {
+                "armorType": "standardarmortype",
+                "structureType": "standardstructuretype",
+                "heatSinkType": "standardheatsinktype",
+                "bArtemis": false,
+                "engineRating": 200,
+                "bXLEngine": false
+            },
+            "componentInformation": {
+                "head": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 1,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "centerTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 12,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 12,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 2,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 2,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 2,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 2,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                }
+            }
+        }
+    },
+    "healthDataStats": {
+        "maxStructure": {
+            "head": 15,
+            "centerTorso": 62,
+            "leftTorso": 42,
+            "rightTorso": 42,
+            "leftArm": 34,
+            "rightArm": 34,
+            "leftLeg": 42,
+            "rightLeg": 42
+        },
+        "maxArmor": {
+            "head": 30,
+            "centerTorso": 124,
+            "leftTorso": 84,
+            "rightTorso": 84,
+            "leftArm": 68,
+            "rightArm": 68,
+            "leftLeg": 84,
+            "rightLeg": 84
+        }
+    },
+    "mechType": {
+        "tagName": "Mech.Assault.Annihilator.ANH-1E"
+    },
+    "chassisFullName": "Annihilator",
+    "variantName": "ANH-1E_Lilly",
+    "defaultMech": {
+        "id": "MWMechLoadoutAsset:ANH-1E_Loadout_Lilly"
+    },
+    "mechTexture": "/Game/UI/Textures/Battlemechs/Annihilator_Icon_UIX.Annihilator_Icon_UIX",
+    "targetComponent": "/Game/Objects/Mechs/Annihilator/Target/Annihilator_Target.Annihilator_Target_C",
+    "description": "While ancient Star League records date the original Annihilator schematics to the final year of the Amaris Civil War in 2780, the chassis was never known to have actually entered production until it was seen among the ranks of the mysterious Wolf's Dragoons mercenary company in 3009. With a top speed of 32.4 km/h - making it one of the slowest \u2018Mechs ever designed - the Annihilator relies on massive amounts of armor to shrug off any fire directed its way. Together with its immense amount of firepower, the Annihilator more than lives up to its name.",
+    "selectedWeaponHardPoints": [
+        "Torso_Center_EH1_mediumlaser",
+        "Torso_Center_EH2_mediumlaser",
+        "Forearm_Right_EH1_ppc",
+        "Forearm_Right_EH2_ppc",
+        "Forearm_Right_EH3_mediumlaser",
+        "Forearm_Left_EH1_ppc",
+        "Forearm_Left_EH2_ppc",
+        "Forearm_Left_EH3_mediumlaser",
+        "Arm_Left_LowerArm_Actuator_Melee",
+        "Arm_Right_LowerArm_Actuator_Melee"
+    ],
+    "blankWeaponHardPoints": [
+        "Torso_Left_GB1_blank",
+        "Torso_Right_GB1_blank"
+    ],
+    "bRecalculateFreeSlotsOnSave": true,
+    "equipmentAllocation": {
+        "armorDataAssetId": {
+            "id": "MWArmorDataAsset:StandardArmor"
+        },
+        "structureDataAssetId": {
+            "id": "MWStructureDataAsset:StandardStructure"
+        },
+        "allowedHeatSinkType": {
+            "tagName": "Equipment.HeatSinks.Single"
+        },
+        "allowedJumpJetType": {
+            "tagName": "None"
+        },
+        "slotData": [
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:General_SlotType"
+                },
+                "slotCounts": {
+                    "Head": 1,
+                    "CenterTorso": 0,
+                    "LeftTorso": 12,
+                    "LeftArm": 4,
+                    "LeftLeg": 2,
+                    "RightTorso": 12,
+                    "RightArm": 4,
+                    "RightLeg": 2
+                }
+            }
+        ],
+        "internalEquipment": [
+            "LifeSupport",
+            "Sensors",
+            "Cockpit",
+            "Gyro",
+            "LeftArm_Shoulder",
+            "LeftArm_UpperActuator",
+            "RightArm_Shoulder",
+            "RightArm_UpperActuator",
+            "LeftLeg_Hip",
+            "LeftLeg_UpperActuator",
+            "LeftLeg_LowerActuator",
+            "LeftLeg_FootActuator",
+            "RightLeg_Hip",
+            "RightLeg_UpperActuator",
+            "RightLeg_LowerActuator",
+            "RightLeg_FootActuator"
+        ],
+        "totalTraitSlots": 100
+    },
+    "refitCosts": {
+        "id": "MWMechRefitCostsDataAsset:ANH_200_Std_RefitCosts"
+    },
+    "engineRating": 200,
+    "bXLEngine": false,
+    "baseChassisCost": 5426666,
+    "salvageShareCost": 50,
+    "bIsHeroMech": false,
+    "bIsDefaultVariant": false
+}

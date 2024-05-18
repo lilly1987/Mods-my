@@ -1,0 +1,311 @@
+{
+    "mechModel": "MWMechModelDataAsset'/Game/Objects/Mechs/Battlemaster/Model/Battlemaster_MDL.Battlemaster_MDL'",
+    "bReadFromFileOnSave": true,
+    "mechStats": {
+        "keyName": "BLR-1G-S",
+        "table": "DataTable'/Lilly2/Stats/MechStats_Lilly.MechStats_Lilly'"
+    },
+    "healthStats": {
+        "keyName": "BLR-1G-S",
+        "table": "DataTable'/Lilly2/Stats/MechHealthStats_Lilly.MechHealthStats_Lilly'"
+    },
+    "mechDataStats": {
+        "baseStats": {
+            "tons": 85,
+            "baseTons": -2000,
+            "cBillBaseValue": 100000,
+            "cBillUpkeepCost": 10000,
+            "repairData": {
+                "costPerArmorPoint": 200,
+                "costPerStructurePoint": 400,
+                "partReplacementCost": {
+                    "head": 420000,
+                    "centerTorso": 2244000,
+                    "sideTorso": 170000,
+                    "arm": 21250,
+                    "leg": 29750
+                }
+            },
+            "refitCosts": {
+                "id": ""
+            },
+            "baseHeatCapacity": 40,
+            "baseCoolingRate": 1
+        },
+        "moveStats": {
+            "topSpeed": 1747.058837890625,
+            "minSpeed": 400,
+            "reverseTopSpeed": 1163.5411376953125,
+            "accelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultAcceleration.MechDefaultAcceleration'",
+            "decelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultDeceleration.MechDefaultDeceleration'",
+            "slowFieldDecelerationCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechSlowFieldDeceleration.MechSlowFieldDeceleration'",
+            "turnSpeedCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultTurnSpeed.MechDefaultTurnSpeed'",
+            "turnSpeed": 64.74425506591797,
+            "jumpJetCrouchCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechJumpJetLeap.MechJumpJetLeap'",
+            "jumpJetLandingRecoveryCurve": "None",
+            "fallDamageCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechFallDamageCurve.MechFallDamageCurve'"
+        },
+        "torsoStats": {
+            "torsoTwistRate": {
+                "yaw": 85.5,
+                "pitch": 53.439998626708984
+            },
+            "torsoTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -60,
+                    "pitch": -20
+                },
+                "high": {
+                    "yaw": 60,
+                    "pitch": 20
+                }
+            },
+            "armTwistRate": {
+                "yaw": 202.5,
+                "pitch": 202.5
+            },
+            "armTwistBounds": {
+                "bIsYawUnbound": false,
+                "bIsPitchUnbound": false,
+                "low": {
+                    "yaw": -30,
+                    "pitch": -30
+                },
+                "high": {
+                    "yaw": 30,
+                    "pitch": 30
+                }
+            }
+        },
+        "powerStats": {
+            "powerInitializationTime": 8,
+            "powerUpTime": 3,
+            "powerDownTime": 3,
+            "torsoPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerUp.MechDefaultTorsoPowerUp'",
+            "torsoPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultTorsoPowerDown.MechDefaultTorsoPowerDown'",
+            "armPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerUp.MechDefaultArmPowerUp'",
+            "armPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultArmPowerDown.MechDefaultArmPowerDown'",
+            "legPowerUpCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerUp.MechDefaultLegPowerUp'",
+            "legPowerDownCurve": "CurveFloat'/Game/Objects/Mechs/_common/Config/MechDefaultPowerAnimatonCurves/MechDefaultLegPowerDown.MechDefaultLegPowerDown'"
+        },
+        "mechImportData": {
+            "baseMechInformation": {
+                "armorType": "standardarmortype",
+                "structureType": "standardstructuretype",
+                "heatSinkType": "doubleheatsinktype",
+                "bArtemis": false,
+                "engineRating": 330,
+                "bXLEngine": true
+            },
+            "componentInformation": {
+                "head": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "centerTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 3,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/AC10_LBX_AmmoEquipment.AC10_LBX_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "leftTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/SRM_AmmoEquipment.SRM_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "rightTorso": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/AC10_LBX_AmmoEquipment.AC10_LBX_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/AC10_LBX_AmmoEquipment.AC10_LBX_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/AC10_LBX_AmmoEquipment.AC10_LBX_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/AC10_LBX_AmmoEquipment.AC10_LBX_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/AC10_LBX_AmmoEquipment.AC10_LBX_AmmoEquipment",
+                        "/Game/Objects/Weapons/_common/AmmoEquipment/AC10_LBX_AmmoEquipment.AC10_LBX_AmmoEquipment"
+                    ],
+                    "jumpJets": 0
+                },
+                "leftArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightArm": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "leftLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                },
+                "rightLeg": {
+                    "bCASE": false,
+                    "targetingComputer": 0,
+                    "bECM": false,
+                    "bBeagleActiveProbe": false,
+                    "heatSinks": 0,
+                    "componentAmmo": [],
+                    "jumpJets": 0
+                }
+            }
+        }
+    },
+    "healthDataStats": {
+        "maxStructure": {
+            "head": 15,
+            "centerTorso": 54,
+            "leftTorso": 36,
+            "rightTorso": 36,
+            "leftArm": 28,
+            "rightArm": 28,
+            "leftLeg": 36,
+            "rightLeg": 36
+        },
+        "maxArmor": {
+            "head": 30,
+            "centerTorso": 108,
+            "leftTorso": 72,
+            "rightTorso": 72,
+            "leftArm": 56,
+            "rightArm": 56,
+            "leftLeg": 72,
+            "rightLeg": 72
+        }
+    },
+    "mechType": {
+        "tagName": "Mech.Assault.Battlemaster.BLR-1G-S"
+    },
+    "chassisFullName": "BattleMaster",
+    "variantName": "BLR-1G-S_Lilly",
+    "defaultMech": {
+        "id": "MWMechLoadoutAsset:BLR-1G-S_Loadout_Lilly"
+    },
+    "mechTexture": "/Game/UI/Textures/Battlemechs/Battlemaster_Icon_UIX.Battlemaster_Icon_UIX",
+    "targetComponent": "/Game/Objects/Mechs/Battlemaster/Target/Battlemaster_Target.Battlemaster_Target_C",
+    "description": "First built for the Star League in 2633 by Hollis Industries, the BattleMaster is one of the most iconic chassis of its time. Given its pedigree many tales of its operational record have circulated, from holding off entire lances to taking out multiple outposts single-handedly. As a well-rounded heavy-hitter with a storied past, the BattleMaster is considered a premiere assault 'Mech and a devastating force to reckon with on the field.",
+    "selectedWeaponHardPoints": [
+        "Torso_Left_EH1_mediumlaser",
+        "Torso_Left_EH2_mediumlaser",
+        "Torso_Left_EH3_mediumlaser",
+        "Torso_Left_MH1_srm6",
+        "Torso_Right_EH1_mediumlaser",
+        "Torso_Right_EH2_mediumlaser",
+        "Torso_Right_EH3_mediumlaser",
+        "Forearm_Right_EH1_ppc",
+        "Arm_Left_Hand_Actuator_Melee",
+        "Arm_Right_Hand_Actuator_Melee",
+        "Forearm_Left_BH1_lbxautocannon10_solidslug"
+    ],
+    "blankWeaponHardPoints": [
+        "Forearm_Right_GB1_blank",
+        "Torso_Center_S_Bolton_Blank"
+    ],
+    "bRecalculateFreeSlotsOnSave": true,
+    "equipmentAllocation": {
+        "armorDataAssetId": {
+            "id": "MWArmorDataAsset:StandardArmor"
+        },
+        "structureDataAssetId": {
+            "id": "MWStructureDataAsset:StandardStructure"
+        },
+        "allowedHeatSinkType": {
+            "tagName": "Equipment.HeatSinks.Double"
+        },
+        "allowedJumpJetType": {
+            "tagName": "None"
+        },
+        "slotData": [
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:General_SlotType"
+                },
+                "slotCounts": {
+                    "Head": 1,
+                    "CenterTorso": 2,
+                    "LeftTorso": 4,
+                    "LeftArm": 4,
+                    "LeftLeg": 2,
+                    "RightTorso": 6,
+                    "RightArm": 6,
+                    "RightLeg": 2
+                }
+            },
+            {
+                "slotTypeDataAssetId": {
+                    "id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+                },
+                "slotCounts": {
+                    "CenterTorso": 3
+                }
+            }
+        ],
+        "internalEquipment": [
+            "LifeSupport",
+            "Sensors",
+            "Cockpit",
+            "Gyro",
+            "LeftArm_Shoulder",
+            "LeftArm_UpperActuator",
+            "RightArm_Shoulder",
+            "RightArm_UpperActuator",
+            "LeftLeg_Hip",
+            "LeftLeg_UpperActuator",
+            "LeftLeg_LowerActuator",
+            "LeftLeg_FootActuator",
+            "RightLeg_Hip",
+            "RightLeg_UpperActuator",
+            "RightLeg_LowerActuator",
+            "RightLeg_FootActuator"
+        ],
+        "totalTraitSlots": 100
+    },
+    "refitCosts": {
+        "id": "MWMechRefitCostsDataAsset:BLR_330_XL_RefitCosts"
+    },
+    "engineRating": 330,
+    "bXLEngine": true,
+    "baseChassisCost": 17464924,
+    "salvageShareCost": 42,
+    "bIsHeroMech": false,
+    "bIsDefaultVariant": false
+}
