@@ -203,7 +203,7 @@
     "chassisFullName": "Annihilator",
     "variantName": "ANH-1E_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:ANH-1E_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:ANH-1E_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Annihilator_Icon_UIX.Annihilator_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Annihilator/Target/Annihilator_Target.Annihilator_Target_C",
@@ -282,6 +282,6 @@
     "bXLEngine": false,
     "baseChassisCost": 5426666,
     "salvageShareCost": 50,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

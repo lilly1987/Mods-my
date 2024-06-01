@@ -205,7 +205,7 @@
     "chassisFullName": "Rifleman",
     "variantName": "RFL-3N_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:RFL-3N_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:RFL-3N_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Rifleman_Icon_UIX.Rifleman_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Rifleman/Target/Rifleman_Target.Rifleman_Target_C",
@@ -277,6 +277,6 @@
     "bXLEngine": false,
     "baseChassisCost": 3884800,
     "salvageShareCost": 30,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

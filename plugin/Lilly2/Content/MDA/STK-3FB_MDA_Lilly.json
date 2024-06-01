@@ -207,7 +207,7 @@
     "chassisFullName": "Stalker",
     "variantName": "STK-3FB_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:STK-3FB_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:STK-3FB_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Stalker_Icon_UIX.Stalker_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Stalker/Target/Stalker_Target.Stalker_Target_C",
@@ -299,6 +299,6 @@
     "bXLEngine": false,
     "baseChassisCost": 5745175,
     "salvageShareCost": 44,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

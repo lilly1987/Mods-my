@@ -203,7 +203,7 @@
     "chassisFullName": "Spider",
     "variantName": "SDR-5D_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:SDR-5D_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:SDR-5D_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Spider_Icon_UIX.Spider_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Spider/Target/Spider_Target.Spider_Target_C",
@@ -288,6 +288,6 @@
     "bXLEngine": false,
     "baseChassisCost": 2325700,
     "salvageShareCost": 14,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

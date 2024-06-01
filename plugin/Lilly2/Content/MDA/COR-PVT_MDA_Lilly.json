@@ -221,7 +221,7 @@
     "chassisFullName": "Corsair",
     "variantName": "COR-PVT_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:COR-PVT_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:COR-PVT_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Corsair_Icon_UIX.Corsair_Icon_UIX",
     "targetComponent": "/Game/DLC1/Objects/Mechs/Corsair/Target/Corsair_Target.Corsair_Target_C",

@@ -205,7 +205,7 @@
     "chassisFullName": "Assassin",
     "variantName": "ASN-27_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:ASN-27_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:ASN-27_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Assassin_Icon_UIX.Assassin_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Assassin/Target/Assassin_Target.Assassin_Target_C",
@@ -315,6 +315,6 @@
     "bXLEngine": true,
     "baseChassisCost": 6239333,
     "salvageShareCost": 18,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

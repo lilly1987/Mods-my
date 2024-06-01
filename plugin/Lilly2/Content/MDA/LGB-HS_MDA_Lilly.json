@@ -208,7 +208,7 @@
     "chassisFullName": "Longbow",
     "variantName": "LGB-HS_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:LGB-HS_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:LGB-HS_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Longbow_Icon_UIX.Longbow_Icon_UIX",
     "targetComponent": "/Game/DLC5/Objects/Mechs/Longbow/Target/Longbow_Target.Longbow_Target_C",

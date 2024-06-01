@@ -203,7 +203,7 @@
     "chassisFullName": "Wolfhound",
     "variantName": "WLF-GR_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:WLF-GR_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:WLF-GR_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Wolfhound_Icon_UIX.Wolfhound_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Wolfhound/Target/Wolfhound_Target.Wolfhound_Target_C",

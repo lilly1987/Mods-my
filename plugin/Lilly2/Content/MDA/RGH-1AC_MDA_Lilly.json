@@ -17,7 +17,7 @@
     "chassisFullName": "Roughneck",
     "variantName": "RGH-1AC_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:RGH-1AC_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:RGH-1AC_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Roughneck_Icon_UIX.Roughneck_Icon_UIX",
     "targetComponent": "/Game/DLC6/Objects/Mechs/Roughneck/Target/Roughneck_Target.Roughneck_Target_C",
@@ -93,6 +93,6 @@
     "bXLEngine": false,
     "baseChassisCost": 0,
     "salvageShareCost": 0,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

@@ -203,7 +203,7 @@
     "chassisFullName": "Black Knight",
     "variantName": "BL-P-KNT2_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:BL-P-KNT2_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:BL-P-KNT2_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Blackknight_Icon_UIX.Blackknight_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Blackknight/Target/Blackknight_Target.Blackknight_Target_C",

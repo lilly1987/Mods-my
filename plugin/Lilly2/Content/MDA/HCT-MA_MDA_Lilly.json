@@ -206,7 +206,7 @@
     "chassisFullName": "Hatchetman",
     "variantName": "HCT-MA_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:HCT-MA_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:HCT-MA_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Hatchetman_Icon_UIX.Hatchetman_Icon_UIX",
     "targetComponent": "/Game/DLC3/Objects/Mechs/Hatchetman/Target/Hatchetman_Target.Hatchetman_Target_C",

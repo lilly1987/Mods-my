@@ -207,7 +207,7 @@
     "chassisFullName": "Charger",
     "variantName": "CGR-3K-S_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CGR-3K-S_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CGR-3K-S_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Charger_Icon_UIX.Charger_Icon_UIX",
     "targetComponent": "/Game/DLC1/Objects/Mechs/Charger/Target/Charger_Target.Charger_Target_C",
@@ -305,6 +305,6 @@
     "bXLEngine": true,
     "baseChassisCost": 18073198,
     "salvageShareCost": 36,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

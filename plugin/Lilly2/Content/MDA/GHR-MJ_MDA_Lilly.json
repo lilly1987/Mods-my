@@ -207,7 +207,7 @@
     "chassisFullName": "Grasshopper",
     "variantName": "GHR-MJ_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:GHR-MJ_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:GHR-MJ_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Grasshopper_Icon_UIX.Grasshopper_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Grasshopper/Target/Grasshopper_Target.Grasshopper_Target_C",

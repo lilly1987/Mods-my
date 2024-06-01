@@ -210,7 +210,7 @@
     "chassisFullName": "Dervish",
     "variantName": "DV-7D_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:DV-7D_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:DV-7D_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Dervish_Icon_UIX.Dervish_Icon_UIX",
     "targetComponent": "/Game/DLC1/Objects/Mechs/Dervish/Target/Dervish_Target.Dervish_Target_C",
@@ -310,6 +310,6 @@
     "bXLEngine": false,
     "baseChassisCost": 3992541,
     "salvageShareCost": 28,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

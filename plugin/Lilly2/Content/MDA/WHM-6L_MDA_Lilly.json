@@ -205,7 +205,7 @@
     "chassisFullName": "Warhammer",
     "variantName": "WHM-6L_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:WHM-6L_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:WHM-6L_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Warhammer_Icon_UIX.Warhammer_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Warhammer/Target/Warhammer_Target.Warhammer_Target_C",
@@ -292,6 +292,6 @@
     "bXLEngine": false,
     "baseChassisCost": 4807033,
     "salvageShareCost": 36,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

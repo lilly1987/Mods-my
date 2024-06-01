@@ -205,7 +205,7 @@
     "chassisFullName": "Zeus",
     "variantName": "ZEU-6T_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:ZEU-6T_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:ZEU-6T_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Zeus_Icon_UIX.Zeus_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Zeus/Target/Zeus_Target.Zeus_Target_C",
@@ -286,6 +286,6 @@
     "bXLEngine": false,
     "baseChassisCost": 6445199,
     "salvageShareCost": 40,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

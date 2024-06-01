@@ -209,7 +209,7 @@
     "chassisFullName": "Atlas",
     "variantName": "AS7-BH_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:AS7-BH_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:AS7-BH_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Atlas_Icon_UIX.Atlas_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Atlas/Target/Atlas_Target.Atlas_Target_C",

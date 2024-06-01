@@ -207,7 +207,7 @@
     "chassisFullName": "Quickdraw",
     "variantName": "QKD-4H_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:QKD-4H_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:QKD-4H_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Quickdraw_Icon_UIX.Quickdraw_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Quickdraw/Target/Quickdraw_Target.Quickdraw_Target_C",
@@ -306,6 +306,6 @@
     "bXLEngine": false,
     "baseChassisCost": 4268800,
     "salvageShareCost": 30,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

@@ -209,7 +209,7 @@
     "chassisFullName": "Blackjack",
     "variantName": "BJ-A_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:BJ-A_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:BJ-A_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Blackjack_Icon_UIX.Blackjack_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Blackjack/Target/Blackjack_Target.Blackjack_Target_C",

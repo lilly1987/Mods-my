@@ -203,7 +203,7 @@
     "chassisFullName": "Cicada",
     "variantName": "CDA-2B_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CDA-2B_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CDA-2B_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Cicada_Icon_UIX.Cicada_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Cicada/Target/Cicada_Target.Cicada_Target_C",
@@ -280,6 +280,6 @@
     "bXLEngine": false,
     "baseChassisCost": 3521467,
     "salvageShareCost": 18,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

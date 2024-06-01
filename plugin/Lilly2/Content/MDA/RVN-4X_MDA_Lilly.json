@@ -207,7 +207,7 @@
     "chassisFullName": "Raven",
     "variantName": "RVN-4X_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:RVN-4X_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:RVN-4X_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Raven_Icon_UIX.Raven_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Raven/Target/Raven_Target.Raven_Target_C",
@@ -293,6 +293,6 @@
     "bXLEngine": false,
     "baseChassisCost": 1949175,
     "salvageShareCost": 15,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

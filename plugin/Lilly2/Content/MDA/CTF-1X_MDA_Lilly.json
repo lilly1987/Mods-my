@@ -205,7 +205,7 @@
     "chassisFullName": "Cataphract",
     "variantName": "CTF-1X_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CTF-1X_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CTF-1X_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Cataphract_Icon_UIX.Cataphract_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Cataphract/Target/Cataphract_Target.Cataphract_Target_C",
@@ -287,6 +287,6 @@
     "bXLEngine": false,
     "baseChassisCost": 4807033,
     "salvageShareCost": 34,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

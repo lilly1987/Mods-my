@@ -206,7 +206,7 @@
     "chassisFullName": "Hunchback",
     "variantName": "HBK-4G_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:HBK-4G_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:HBK-4G_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Hunchback_Icon_UIX.Hunchback_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Hunchback/Target/Hunchback_Target.Hunchback_Target_C",
@@ -278,6 +278,6 @@
     "bXLEngine": false,
     "baseChassisCost": 2672499,
     "salvageShareCost": 26,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

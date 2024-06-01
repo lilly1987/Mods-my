@@ -207,7 +207,7 @@
     "chassisFullName": "Cicada",
     "variantName": "CDA-X5_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CDA-X5_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CDA-X5_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Cicada_Icon_UIX.Cicada_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Cicada/Target/Cicada_Target.Cicada_Target_C",

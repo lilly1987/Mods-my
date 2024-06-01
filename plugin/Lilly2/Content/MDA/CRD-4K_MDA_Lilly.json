@@ -209,7 +209,7 @@
     "chassisFullName": "Crusader",
     "variantName": "CRD-4K_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CRD-4K_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CRD-4K_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Crusader_Icon_UIX.Crusader_Icon_UIX",
     "targetComponent": "/Game/DLC4/Objects/Mechs/Crusader/Target/Crusader_Target.Crusader_Target_C",
@@ -286,6 +286,6 @@
     "bXLEngine": false,
     "baseChassisCost": 4324924,
     "salvageShareCost": 34,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

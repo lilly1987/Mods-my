@@ -205,7 +205,7 @@
     "chassisFullName": "Marauder",
     "variantName": "MAD-3R_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:MAD-3R_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:MAD-3R_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Marauder_Icon_UIX.Marauder_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Marauder/Target/Marauder_Target.Marauder_Target_C",
@@ -286,6 +286,6 @@
     "bXLEngine": false,
     "baseChassisCost": 5333125,
     "salvageShareCost": 38,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

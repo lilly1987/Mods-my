@@ -221,7 +221,7 @@
     "chassisFullName": "Corsair",
     "variantName": "COR-XT1_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:COR-XT1_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:COR-XT1_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Corsair_Icon_UIX.Corsair_Icon_UIX",
     "targetComponent": "/Game/DLC1/Objects/Mechs/Corsair/Target/Corsair_Target.Corsair_Target_C",
@@ -308,6 +308,6 @@
     "bXLEngine": true,
     "baseChassisCost": 17642626,
     "salvageShareCost": 44,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

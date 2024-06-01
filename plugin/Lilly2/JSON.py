@@ -56,8 +56,10 @@ for f in js:
         if j["mechDataStats"] is not None:
             j["mechDataStats"]["baseStats"]["baseTons"]=-2000
         j["variantName"]+="_Lilly"
-        j["defaultMech"]["id"]+="_Lilly"
+        j["defaultMech"]["id"]+="_Lilly_2"
         j["equipmentAllocation"]["totalTraitSlots"]=100
+        j["bIsHeroMech"]=True
+        j["bIsDefaultVariant"]=False
         #print(j)
         #print(f)
         print(a)

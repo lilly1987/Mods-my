@@ -208,7 +208,7 @@
     "chassisFullName": "Banshee",
     "variantName": "BNC-3S_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:BNC-3S_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:BNC-3S_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Banshee_Icon_UIX.Banshee_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Banshee/Target/Banshee_Target.Banshee_Target_C",
@@ -294,6 +294,6 @@
     "bXLEngine": false,
     "baseChassisCost": 6744075,
     "salvageShareCost": 44,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

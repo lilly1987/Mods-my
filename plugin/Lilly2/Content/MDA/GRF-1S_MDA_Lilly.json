@@ -205,7 +205,7 @@
     "chassisFullName": "Griffin",
     "variantName": "GRF-1S_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:GRF-1S_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:GRF-1S_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Griffin_Icon_UIX.Griffin_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Griffin/Target/Griffin_Target.Griffin_Target_C",
@@ -302,6 +302,6 @@
     "bXLEngine": false,
     "baseChassisCost": 3797241,
     "salvageShareCost": 25,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

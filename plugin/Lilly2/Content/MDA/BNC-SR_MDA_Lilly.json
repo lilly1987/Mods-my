@@ -207,7 +207,7 @@
     "chassisFullName": "Banshee",
     "variantName": "BNC-SR_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:BNC-SR_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:BNC-SR_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Banshee_Icon_UIX.Banshee_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Banshee/Target/Banshee_Target.Banshee_Target_C",

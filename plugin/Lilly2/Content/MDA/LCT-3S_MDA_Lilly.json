@@ -207,7 +207,7 @@
     "chassisFullName": "Locust",
     "variantName": "LCT-3S_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:LCT-3S_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:LCT-3S_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Locust_Icon_UIX.Locust_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Locust/Target/Locust_Target.Locust_Target_C",
@@ -276,6 +276,6 @@
     "bXLEngine": false,
     "baseChassisCost": 1432000,
     "salvageShareCost": 11,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

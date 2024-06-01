@@ -211,7 +211,7 @@
     "chassisFullName": "Vulcan",
     "variantName": "VL-BL_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:VL-BL_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:VL-BL_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Vulcan_Icon_UIX.Vulcan_Icon_UIX",
     "targetComponent": "/Game/DLC1/Objects/Mechs/Vulcan/Target/Vulcan_Target.Vulcan_Target_C",

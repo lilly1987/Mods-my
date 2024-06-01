@@ -211,7 +211,7 @@
     "chassisFullName": "Archer",
     "variantName": "ARC-2W_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:ARC-2W_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:ARC-2W_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Archer_Icon_UIX.Archer_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Archer/Target/Archer_Target.Archer_Target_C",
@@ -293,6 +293,6 @@
     "bXLEngine": false,
     "baseChassisCost": 4807033,
     "salvageShareCost": 34,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

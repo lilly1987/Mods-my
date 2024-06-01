@@ -208,7 +208,7 @@
     "chassisFullName": "Panther",
     "variantName": "PNT-10P_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:PNT-10P_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:PNT-10P_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Panther_Icon_UIX.Panther_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Panther/Target/Panther_Target.Panther_Target_C",
@@ -294,6 +294,6 @@
     "bXLEngine": true,
     "baseChassisCost": 3716325,
     "salvageShareCost": 16,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

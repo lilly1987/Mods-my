@@ -207,7 +207,7 @@
     "chassisFullName": "Vindicator",
     "variantName": "VND-1X_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:VND-1X_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:VND-1X_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Vindicator_Icon_UIX.Vindicator_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Vindicator/Target/Vindicator_Target.Vindicator_Target_C",
@@ -295,6 +295,6 @@
     "bXLEngine": false,
     "baseChassisCost": 2361325,
     "salvageShareCost": 22,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

@@ -209,7 +209,7 @@
     "chassisFullName": "Trebuchet",
     "variantName": "TBT-LG_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:TBT-LG_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:TBT-LG_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Trebuchet_Icon_UIX.Trebuchet_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Trebuchet/Target/Trebuchet_Target.Trebuchet_Target_C",

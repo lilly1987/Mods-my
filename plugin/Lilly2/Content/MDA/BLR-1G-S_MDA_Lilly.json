@@ -218,7 +218,7 @@
     "chassisFullName": "BattleMaster",
     "variantName": "BLR-1G-S_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:BLR-1G-S_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:BLR-1G-S_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Battlemaster_Icon_UIX.Battlemaster_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Battlemaster/Target/Battlemaster_Target.Battlemaster_Target_C",
@@ -306,6 +306,6 @@
     "bXLEngine": true,
     "baseChassisCost": 17464924,
     "salvageShareCost": 42,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

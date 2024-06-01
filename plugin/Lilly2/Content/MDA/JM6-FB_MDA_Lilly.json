@@ -207,7 +207,7 @@
     "chassisFullName": "JagerMech",
     "variantName": "JM6-FB_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:JM6-FB_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:JM6-FB_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Jagermech_Icon_UIX.Jagermech_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Jagermech/Target/Jagermech_Target.Jagermech_Target_C",

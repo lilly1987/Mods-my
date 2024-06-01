@@ -211,7 +211,7 @@
     "chassisFullName": "King Crab",
     "variantName": "KGC-000B_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:KGC-000B_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:KGC-000B_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Kingcrab_Icon_UIX.Kingcrab_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Kingcrab/Target/Kingcrab_Target.Kingcrab_Target_C",
@@ -289,6 +289,6 @@
     "bXLEngine": false,
     "baseChassisCost": 7480000,
     "salvageShareCost": 50,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

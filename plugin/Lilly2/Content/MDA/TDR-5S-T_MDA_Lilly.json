@@ -203,7 +203,7 @@
     "chassisFullName": "Thunderbolt",
     "variantName": "TDR-5S-T_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:TDR-5S-T_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:TDR-5S-T_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Thunderbolt_Icon_UIX.Thunderbolt_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Thunderbolt/Target/Thunderbolt_Target.Thunderbolt_Target_C",

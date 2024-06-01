@@ -211,7 +211,7 @@
     "chassisFullName": "Zeus",
     "variantName": "ZEU-SK_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:ZEU-SK_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:ZEU-SK_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Zeus_Icon_UIX.Zeus_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Zeus/Target/Zeus_Target.Zeus_Target_C",

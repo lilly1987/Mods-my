@@ -209,7 +209,7 @@
     "chassisFullName": "Kintaro",
     "variantName": "KTO-18P_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:KTO-18P_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:KTO-18P_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Kintaro_Icon_UIX.Kintaro_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Kintaro/Target/Kintaro_Target.Kintaro_Target_C",
@@ -290,6 +290,6 @@
     "bXLEngine": false,
     "baseChassisCost": 3797241,
     "salvageShareCost": 28,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

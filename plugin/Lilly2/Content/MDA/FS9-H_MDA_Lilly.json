@@ -205,7 +205,7 @@
     "chassisFullName": "Firestarter",
     "variantName": "FS9-H_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:FS9-H_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:FS9-H_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Firestarter_Icon_UIX.Firestarter_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Firestarter/Target/Firestarter_Target.Firestarter_Target_C",
@@ -296,6 +296,6 @@
     "bXLEngine": false,
     "baseChassisCost": 2464425,
     "salvageShareCost": 18,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

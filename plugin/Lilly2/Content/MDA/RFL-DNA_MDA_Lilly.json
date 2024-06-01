@@ -207,7 +207,7 @@
     "chassisFullName": "Rifleman",
     "variantName": "RFL-DNA_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:RFL-DNA_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:RFL-DNA_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Rifleman_Icon_UIX.Rifleman_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Rifleman/Target/Rifleman_Target.Rifleman_Target_C",

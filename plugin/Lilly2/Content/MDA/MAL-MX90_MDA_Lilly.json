@@ -210,7 +210,7 @@
     "chassisFullName": "Mauler",
     "variantName": "MAL-MX90_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:MAL-MX90_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:MAL-MX90_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Mauler_Icon_UIX.Mauler_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Mauler/Target/Mauler_Target.Mauler_Target_C",
@@ -286,6 +286,6 @@
     "bXLEngine": false,
     "baseChassisCost": 6169300,
     "salvageShareCost": 46,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

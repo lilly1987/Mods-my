@@ -208,7 +208,7 @@
     "chassisFullName": "Javelin",
     "variantName": "JVN-HT_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:JVN-HT_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:JVN-HT_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Javelin_Icon_UIX.Javelin_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Javelin/Target/Javelin_Target.Javelin_Target_C",

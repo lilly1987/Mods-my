@@ -208,7 +208,7 @@
     "chassisFullName": "Firestarter",
     "variantName": "FS9-E_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:FS9-E_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:FS9-E_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Firestarter_Icon_UIX.Firestarter_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Firestarter/Target/Firestarter_Target.Firestarter_Target_C",

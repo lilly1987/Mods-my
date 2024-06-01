@@ -203,7 +203,7 @@
     "chassisFullName": "Flea",
     "variantName": "FLE-17_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:FLE-17_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:FLE-17_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Flea_Icon_UIX.Flea_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Flea/Target/Flea_Target.Flea_Target_C",
@@ -289,6 +289,6 @@
     "bXLEngine": false,
     "baseChassisCost": 1368000,
     "salvageShareCost": 10,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

@@ -203,7 +203,7 @@
     "chassisFullName": "Jenner",
     "variantName": "JR7-F_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:JR7-F_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:JR7-F_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Jenner_Icon_UIX.Jenner_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Jenner/Target/Jenner_Target.Jenner_Target_C",
@@ -293,6 +293,6 @@
     "bXLEngine": false,
     "baseChassisCost": 2574675,
     "salvageShareCost": 18,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

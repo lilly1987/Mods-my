@@ -211,7 +211,7 @@
     "chassisFullName": "Zeus",
     "variantName": "ZEU-SA3_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:ZEU-SA3_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:ZEU-SA3_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Zeus_Icon_UIX.Zeus_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Zeus/Target/Zeus_Target.Zeus_Target_C",
@@ -321,6 +321,6 @@
     "bXLEngine": true,
     "baseChassisCost": 15956398,
     "salvageShareCost": 40,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

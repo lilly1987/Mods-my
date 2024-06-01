@@ -210,7 +210,7 @@
     "chassisFullName": "Highlander",
     "variantName": "HGN-733C_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:HGN-733C_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:HGN-733C_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Highlander_Icon_UIX.Highlander_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Highlander/Target/Highlander_Target.Highlander_Target_C",
@@ -297,6 +297,6 @@
     "bXLEngine": false,
     "baseChassisCost": 6169300,
     "salvageShareCost": 46,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

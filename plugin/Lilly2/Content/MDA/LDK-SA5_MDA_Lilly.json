@@ -207,7 +207,7 @@
     "chassisFullName": "Loaderking",
     "variantName": "LDK-SA5_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:LDK-SA5_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:LDK-SA5_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Roughneck_Icon_UIX.Roughneck_Icon_UIX",
     "targetComponent": "/Game/DLC6/Objects/Mechs/Roughneck/Target/Roughneck_Target.Roughneck_Target_C",
@@ -283,6 +283,6 @@
     "bXLEngine": false,
     "baseChassisCost": 4552624,
     "salvageShareCost": 37,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

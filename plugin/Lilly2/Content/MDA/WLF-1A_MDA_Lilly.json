@@ -203,7 +203,7 @@
     "chassisFullName": "Wolfhound",
     "variantName": "WLF-1A_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:WLF-1A_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:WLF-1A_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Wolfhound_Icon_UIX.Wolfhound_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Wolfhound/Target/Wolfhound_Target.Wolfhound_Target_C",
@@ -275,6 +275,6 @@
     "bXLEngine": false,
     "baseChassisCost": 2464425,
     "salvageShareCost": 19,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

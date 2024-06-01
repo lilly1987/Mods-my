@@ -210,7 +210,7 @@
     "chassisFullName": "Victor",
     "variantName": "VTR-9A1_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:VTR-9A1_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:VTR-9A1_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Victor_Icon_UIX.Victor_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Victor/Target/Victor_Target.Victor_Target_C",
@@ -306,6 +306,6 @@
     "bXLEngine": false,
     "baseChassisCost": 6445199,
     "salvageShareCost": 38,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

@@ -203,7 +203,7 @@
     "chassisFullName": "Charger",
     "variantName": "CGR-N7_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CGR-N7_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CGR-N7_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Charger_Icon_UIX.Charger_Icon_UIX",
     "targetComponent": "/Game/DLC1/Objects/Mechs/Charger/Target/Charger_Target.Charger_Target_C",

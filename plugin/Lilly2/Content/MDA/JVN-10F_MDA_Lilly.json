@@ -203,7 +203,7 @@
     "chassisFullName": "Javelin",
     "variantName": "JVN-10F_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:JVN-10F_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:JVN-10F_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Javelin_Icon_UIX.Javelin_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Javelin/Target/Javelin_Target.Javelin_Target_C",
@@ -292,6 +292,6 @@
     "bXLEngine": false,
     "baseChassisCost": 1779700,
     "salvageShareCost": 14,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

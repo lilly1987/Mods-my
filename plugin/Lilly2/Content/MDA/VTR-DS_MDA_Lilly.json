@@ -209,7 +209,7 @@
     "chassisFullName": "Victor",
     "variantName": "VTR-DS_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:VTR-DS_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:VTR-DS_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Victor_Icon_UIX.Victor_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Victor/Target/Victor_Target.Victor_Target_C",

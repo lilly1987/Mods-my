@@ -210,7 +210,7 @@
     "chassisFullName": "Atlas",
     "variantName": "AS7-D_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:AS7-D_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:AS7-D_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Atlas_Icon_UIX.Atlas_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Atlas/Target/Atlas_Target.Atlas_Target_C",
@@ -293,6 +293,6 @@
     "bXLEngine": false,
     "baseChassisCost": 7360000,
     "salvageShareCost": 50,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

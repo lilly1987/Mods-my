@@ -206,7 +206,7 @@
     "chassisFullName": "Enforcer",
     "variantName": "ENF-5P_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:ENF-5P_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:ENF-5P_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Enforcer_Icon_UIX.Enforcer_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Enforcer/Target/Enforcer_Target.Enforcer_Target_C",
@@ -295,6 +295,6 @@
     "bXLEngine": true,
     "baseChassisCost": 7212500,
     "salvageShareCost": 25,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

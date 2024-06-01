@@ -206,7 +206,7 @@
     "chassisFullName": "Thunderbolt",
     "variantName": "TDR-5SE_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:TDR-5SE_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:TDR-5SE_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Thunderbolt_Icon_UIX.Thunderbolt_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Thunderbolt/Target/Thunderbolt_Target.Thunderbolt_Target_C",
@@ -294,6 +294,6 @@
     "bXLEngine": false,
     "baseChassisCost": 4324924,
     "salvageShareCost": 34,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

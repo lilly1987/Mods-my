@@ -211,7 +211,7 @@
     "chassisFullName": "Cataphract",
     "variantName": "CTF-IM_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CTF-IM_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CTF-IM_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Cataphract_Icon_UIX.Cataphract_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Cataphract/Target/Cataphract_Target.Cataphract_Target_C",

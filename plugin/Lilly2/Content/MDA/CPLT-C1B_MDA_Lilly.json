@@ -210,7 +210,7 @@
     "chassisFullName": "Catapult",
     "variantName": "CPLT-C1B_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CPLT-C1B_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CPLT-C1B_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Catapult_Icon_UIX.Catapult_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Catapult/Target/Catapult_Target.Catapult_Target_C",
@@ -297,6 +297,6 @@
     "bXLEngine": false,
     "baseChassisCost": 4324924,
     "salvageShareCost": 34,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

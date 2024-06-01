@@ -203,7 +203,7 @@
     "chassisFullName": "Crab",
     "variantName": "CRB-27SL_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CRB-27SL_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CRB-27SL_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Crab_Icon_UIX.Crab_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Crab/Target/Crab_Target.Crab_Target_C",
@@ -290,6 +290,6 @@
     "bXLEngine": true,
     "baseChassisCost": 7212500,
     "salvageShareCost": 25,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

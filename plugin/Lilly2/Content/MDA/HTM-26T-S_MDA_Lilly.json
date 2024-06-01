@@ -217,7 +217,7 @@
     "chassisFullName": "Hatamoto-Chi",
     "variantName": "HTM-26T-S_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:HTM-26T-S_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:HTM-26T-S_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Hatamotochi_Icon_UIX.Hatamotochi_Icon_UIX",
     "targetComponent": "/Game/DLC1/Objects/Mechs/Hatamotochi/Target/Hatamotochi_Target.Hatamotochi_Target_C",
@@ -300,6 +300,6 @@
     "bXLEngine": true,
     "baseChassisCost": 16921198,
     "salvageShareCost": 40,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

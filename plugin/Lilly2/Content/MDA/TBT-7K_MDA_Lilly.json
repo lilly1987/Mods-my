@@ -207,7 +207,7 @@
     "chassisFullName": "Trebuchet",
     "variantName": "TBT-7K_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:TBT-7K_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:TBT-7K_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Trebuchet_Icon_UIX.Trebuchet_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Trebuchet/Target/Trebuchet_Target.Trebuchet_Target_C",
@@ -278,6 +278,6 @@
     "bXLEngine": false,
     "baseChassisCost": 3372500,
     "salvageShareCost": 25,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

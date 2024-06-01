@@ -210,7 +210,7 @@
     "chassisFullName": "Shadow Hawk",
     "variantName": "SHD-5M_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:SHD-5M_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:SHD-5M_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Shadowhawk_Icon_UIX.Shadowhawk_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Shadowhawk/Target/Shadowhawk_Target.Shadowhawk_Target_C",
@@ -305,6 +305,6 @@
     "bXLEngine": true,
     "baseChassisCost": 8681291,
     "salvageShareCost": 28,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

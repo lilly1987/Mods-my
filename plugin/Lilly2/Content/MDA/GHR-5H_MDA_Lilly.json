@@ -205,7 +205,7 @@
     "chassisFullName": "Grasshopper",
     "variantName": "GHR-5H_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:GHR-5H_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:GHR-5H_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Grasshopper_Icon_UIX.Grasshopper_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Grasshopper/Target/Grasshopper_Target.Grasshopper_Target_C",
@@ -302,6 +302,6 @@
     "bXLEngine": false,
     "baseChassisCost": 4807033,
     "salvageShareCost": 34,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

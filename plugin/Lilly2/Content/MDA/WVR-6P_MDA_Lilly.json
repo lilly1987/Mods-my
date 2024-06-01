@@ -207,7 +207,7 @@
     "chassisFullName": "Wolverine",
     "variantName": "WVR-6P_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:WVR-6P_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:WVR-6P_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Wolverine_Icon_UIX.Wolverine_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Wolverine/Target/Wolverine_Target.Wolverine_Target_C",
@@ -301,6 +301,6 @@
     "bXLEngine": false,
     "baseChassisCost": 3797241,
     "salvageShareCost": 26,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

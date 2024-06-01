@@ -209,7 +209,7 @@
     "chassisFullName": "Loaderking",
     "variantName": "LDK-IDM_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:LDK-IDM_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:LDK-IDM_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Roughneck_Icon_UIX.Roughneck_Icon_UIX",
     "targetComponent": "/Game/DLC6/Objects/Mechs/Roughneck/Target/Roughneck_Target.Roughneck_Target_C",

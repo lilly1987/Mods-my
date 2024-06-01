@@ -209,7 +209,7 @@
     "chassisFullName": "Hunchback",
     "variantName": "HBK-VEST_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:HBK-VEST_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:HBK-VEST_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Hunchback_Icon_UIX.Hunchback_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Hunchback/Target/Hunchback_Target.Hunchback_Target_C",
@@ -296,6 +296,6 @@
     "bXLEngine": true,
     "baseChassisCost": 5853999,
     "salvageShareCost": 26,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

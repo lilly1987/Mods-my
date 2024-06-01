@@ -205,7 +205,7 @@
     "chassisFullName": "BattleMaster",
     "variantName": "BLR-1GHE_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:BLR-1GHE_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:BLR-1GHE_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Battlemaster_Icon_UIX.Battlemaster_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Battlemaster/Target/Battlemaster_Target.Battlemaster_Target_C",

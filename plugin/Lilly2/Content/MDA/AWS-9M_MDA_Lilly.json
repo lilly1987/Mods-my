@@ -205,7 +205,7 @@
     "chassisFullName": "Awesome",
     "variantName": "AWS-9M_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:AWS-9M_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:AWS-9M_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Awesome_Icon_UIX.Awesome_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Awesome/Target/Awesome_Target.Awesome_Target_C",
@@ -288,6 +288,6 @@
     "bXLEngine": true,
     "baseChassisCost": 15769198,
     "salvageShareCost": 42,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

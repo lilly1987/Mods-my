@@ -205,7 +205,7 @@
     "chassisFullName": "Panther",
     "variantName": "PNT-KK_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:PNT-KK_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:PNT-KK_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Panther_Icon_UIX.Panther_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Panther/Target/Panther_Target.Panther_Target_C",

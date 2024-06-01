@@ -206,7 +206,7 @@
     "chassisFullName": "Hatchetman",
     "variantName": "HCT-5S_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:HCT-5S_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:HCT-5S_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Hatchetman_Icon_UIX.Hatchetman_Icon_UIX",
     "targetComponent": "/Game/DLC3/Objects/Mechs/Hatchetman/Target/Hatchetman_Target.Hatchetman_Target_C",
@@ -293,6 +293,6 @@
     "bXLEngine": true,
     "baseChassisCost": 4710325,
     "salvageShareCost": 22,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

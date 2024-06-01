@@ -203,7 +203,7 @@
     "chassisFullName": "Marauder",
     "variantName": "MAD-BH_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:MAD-BH_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:MAD-BH_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Marauder_Icon_UIX.Marauder_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Marauder/Target/Marauder_Target.Marauder_Target_C",

@@ -209,7 +209,7 @@
     "chassisFullName": "Centurion",
     "variantName": "CN9-A_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CN9-A_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CN9-A_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Centurion_Icon_UIX.Centurion_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Centurion/Target/Centurion_Target.Centurion_Target_C",
@@ -283,6 +283,6 @@
     "bXLEngine": false,
     "baseChassisCost": 2672499,
     "salvageShareCost": 25,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

@@ -203,7 +203,7 @@
     "chassisFullName": "Marauder II",
     "variantName": "MAD-4A_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:MAD-4A_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:MAD-4A_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Marauderii_Icon_UIX.MarauderII_Icon_UIX",
     "targetComponent": "/Game/DLC1/Objects/Mechs/Marauderii/Target/Marauderii_Target.Marauderii_Target_C",
@@ -302,6 +302,6 @@
     "bXLEngine": false,
     "baseChassisCost": 7360000,
     "salvageShareCost": 50,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

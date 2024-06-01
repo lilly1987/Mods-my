@@ -211,7 +211,7 @@
     "chassisFullName": "Orion",
     "variantName": "ON1-V_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:ON1-V_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:ON1-V_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Orion_Icon_UIX.Orion_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Orion/Target/Orion_Target.Orion_Target_C",
@@ -293,6 +293,6 @@
     "bXLEngine": false,
     "baseChassisCost": 5333125,
     "salvageShareCost": 38,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

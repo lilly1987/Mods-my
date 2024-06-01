@@ -207,7 +207,7 @@
     "chassisFullName": "Hatamoto-Chi",
     "variantName": "HTM-ON_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:HTM-ON_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:HTM-ON_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Hatamotochi_Icon_UIX.Hatamotochi_Icon_UIX",
     "targetComponent": "/Game/DLC1/Objects/Mechs/Hatamotochi/Target/Hatamotochi_Target.Hatamotochi_Target_C",

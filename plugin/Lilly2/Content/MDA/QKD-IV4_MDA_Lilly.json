@@ -209,7 +209,7 @@
     "chassisFullName": "Quickdraw",
     "variantName": "QKD-IV4_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:QKD-IV4_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:QKD-IV4_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Quickdraw_Icon_UIX.Quickdraw_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Quickdraw/Target/Quickdraw_Target.Quickdraw_Target_C",

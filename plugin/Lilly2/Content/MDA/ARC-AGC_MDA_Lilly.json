@@ -210,7 +210,7 @@
     "chassisFullName": "Archer",
     "variantName": "ARC-AGC_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:ARC-AGC_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:ARC-AGC_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Archer_Icon_UIX.Archer_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Archer/Target/Archer_Target.Archer_Target_C",

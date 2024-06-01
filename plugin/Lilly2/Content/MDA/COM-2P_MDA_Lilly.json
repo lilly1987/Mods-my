@@ -207,7 +207,7 @@
     "chassisFullName": "Commando",
     "variantName": "COM-2P_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:COM-2P_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:COM-2P_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Commando_Icon_UIX.Commando_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Commando/Target/Commando_Target.Commando_Target_C",
@@ -293,6 +293,6 @@
     "bXLEngine": false,
     "baseChassisCost": 1540625,
     "salvageShareCost": 12,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

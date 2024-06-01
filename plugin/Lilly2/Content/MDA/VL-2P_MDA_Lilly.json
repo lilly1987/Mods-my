@@ -205,7 +205,7 @@
     "chassisFullName": "Vulcan",
     "variantName": "VL-2P_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:VL-2P_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:VL-2P_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Vulcan_Icon_UIX.Vulcan_Icon_UIX",
     "targetComponent": "/Game/DLC1/Objects/Mechs/Vulcan/Target/Vulcan_Target.Vulcan_Target_C",
@@ -321,6 +321,6 @@
     "bXLEngine": false,
     "baseChassisCost": 2802800,
     "salvageShareCost": 20,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

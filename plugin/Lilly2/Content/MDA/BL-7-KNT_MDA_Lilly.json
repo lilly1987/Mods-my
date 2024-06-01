@@ -203,7 +203,7 @@
     "chassisFullName": "Black Knight",
     "variantName": "BL-7-KNT_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:BL-7-KNT_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:BL-7-KNT_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Blackknight_Icon_UIX.Blackknight_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Blackknight/Target/Blackknight_Target.Blackknight_Target_C",
@@ -287,6 +287,6 @@
     "bXLEngine": false,
     "baseChassisCost": 5333125,
     "salvageShareCost": 38,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

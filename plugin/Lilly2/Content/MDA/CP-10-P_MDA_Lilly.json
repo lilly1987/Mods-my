@@ -211,7 +211,7 @@
     "chassisFullName": "Cyclops",
     "variantName": "CP-10-P_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:CP-10-P_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:CP-10-P_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Cyclops_Icon_UIX.Cyclops_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Cyclops/Target/Cyclops_Target.Cyclops_Target_C",
@@ -291,6 +291,6 @@
     "bXLEngine": false,
     "baseChassisCost": 7765300,
     "salvageShareCost": 47,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

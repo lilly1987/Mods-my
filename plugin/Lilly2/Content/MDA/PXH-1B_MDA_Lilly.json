@@ -205,7 +205,7 @@
     "chassisFullName": "Phoenix Hawk",
     "variantName": "PXH-1B_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:PXH-1B_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:PXH-1B_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Phoenixhawk_Icon_UIX.Phoenixhawk_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Phoenixhawk/Target/Phoenixhawk_Target.Phoenixhawk_Target_C",
@@ -309,6 +309,6 @@
     "bXLEngine": true,
     "baseChassisCost": 6876625,
     "salvageShareCost": 24,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

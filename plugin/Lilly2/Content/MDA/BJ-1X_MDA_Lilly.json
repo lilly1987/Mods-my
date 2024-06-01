@@ -203,7 +203,7 @@
     "chassisFullName": "Blackjack",
     "variantName": "BJ-1X_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:BJ-1X_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:BJ-1X_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Blackjack_Icon_UIX.Blackjack_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Blackjack/Target/Blackjack_Target.Blackjack_Target_C",
@@ -277,6 +277,6 @@
     "bXLEngine": false,
     "baseChassisCost": 2992075,
     "salvageShareCost": 22,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

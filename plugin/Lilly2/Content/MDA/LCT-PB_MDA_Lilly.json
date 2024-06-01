@@ -207,7 +207,7 @@
     "chassisFullName": "Locust",
     "variantName": "LCT-PB_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:LCT-PB_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:LCT-PB_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Locust_Icon_UIX.Locust_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Locust/Target/Locust_Target.Locust_Target_C",

@@ -211,7 +211,7 @@
     "chassisFullName": "Awesome",
     "variantName": "AWS-PB_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:AWS-PB_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:AWS-PB_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Awesome_Icon_UIX.Awesome_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Awesome/Target/Awesome_Target.Awesome_Target_C",

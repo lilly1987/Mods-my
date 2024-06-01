@@ -210,7 +210,7 @@
     "chassisFullName": "JagerMech",
     "variantName": "JM6-DD_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:JM6-DD_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:JM6-DD_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Jagermech_Icon_UIX.Jagermech_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Jagermech/Target/Jagermech_Target.Jagermech_Target_C",
@@ -282,6 +282,6 @@
     "bXLEngine": true,
     "baseChassisCost": 9901924,
     "salvageShareCost": 32,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

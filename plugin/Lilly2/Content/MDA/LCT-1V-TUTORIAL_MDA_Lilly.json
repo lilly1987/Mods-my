@@ -205,7 +205,7 @@
     "chassisFullName": "Locust LCT-1V",
     "variantName": "LCT-1V_Lilly",
     "defaultMech": {
-        "id": "_Lilly"
+        "id": "_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Locust_Icon_UIX.Locust_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Locust/Target/Locust_Target.Locust_Target_C",
@@ -241,6 +241,6 @@
     "bXLEngine": false,
     "baseChassisCost": 313600,
     "salvageShareCost": 11,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

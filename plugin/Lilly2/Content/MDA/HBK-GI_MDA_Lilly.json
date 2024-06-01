@@ -209,7 +209,7 @@
     "chassisFullName": "Hunchback",
     "variantName": "HBK-GI_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:HBK-GI_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:HBK-GI_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Hunchback_Icon_UIX.Hunchback_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Hunchback/Target/Hunchback_Target.Hunchback_Target_C",

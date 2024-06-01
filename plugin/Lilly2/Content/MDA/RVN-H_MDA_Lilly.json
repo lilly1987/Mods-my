@@ -210,7 +210,7 @@
     "chassisFullName": "Raven",
     "variantName": "RVN-H_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:RVN-H_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:RVN-H_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Raven_Icon_UIX.Raven_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Raven/Target/Raven_Target.Raven_Target_C",

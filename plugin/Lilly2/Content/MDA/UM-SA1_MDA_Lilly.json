@@ -205,7 +205,7 @@
     "chassisFullName": "UrbanMech",
     "variantName": "UM-SA1_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:UM-SA1_Loadout1_Lilly"
+        "id": "MWMechLoadoutAsset:UM-SA1_Loadout1_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Urbanmech_Icon_UIX.Urbanmech_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Urbanmech/Target/Urbanmech_Target.UrbanMech_Target_C",
@@ -286,6 +286,6 @@
     "bXLEngine": true,
     "baseChassisCost": 3285100,
     "salvageShareCost": 10,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

@@ -213,7 +213,7 @@
     "chassisFullName": "Nightstar",
     "variantName": "NSR-9J_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:NSR-9J_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:NSR-9J_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Nightstar_Icon_UIX.Nightstar_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Nightstar/Target/Nightstar_Target.Nightstar_Target_C",
@@ -295,6 +295,6 @@
     "bXLEngine": true,
     "baseChassisCost": 17420326,
     "salvageShareCost": 46,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }

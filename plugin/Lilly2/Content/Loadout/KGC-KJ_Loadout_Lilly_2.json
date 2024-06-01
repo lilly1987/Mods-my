@@ -70,273 +70,235 @@
         "leftTorsoRear": 20000,
         "rightTorsoRear": 20000
     },
-	"installedWeapons": [
-		{
-			"hardpointSlotId": "Torso_Left_MH1_lrm15",
-			"weaponData":
-			{
-				"weaponId":
-				{
-					"id": "MWMissileWeaponDataAsset:Lrm15"
-				},
-				"healthState": "Healthy"
-			}
-		},
-		{
-			"hardpointSlotId": "Torso_Right_MH1_lrm15",
-			"weaponData":
-			{
-				"weaponId":
-				{
-					"id": "MWMissileWeaponDataAsset:LRM15"
-				},
-				"healthState": "Healthy"
-			}
-		},
-		{
-			"hardpointSlotId": "Forearm_Right_BH2_ultraautocannon5",
-			"weaponData":
-			{
-				"weaponId":
-				{
-					"id": "MWProjectileWeaponDataAsset:UltraAutocannon5"
-				},
-				"healthState": "Healthy"
-			}
-		},
-		{
-			"hardpointSlotId": "Forearm_Left_BH2_ultraautocannon5",
-			"weaponData":
-			{
-				"weaponId":
-				{
-					"id": "MWProjectileWeaponDataAsset:UltraAutocannon5"
-				},
-				"healthState": "Healthy"
-			}
-		},
-		{
-			"hardpointSlotId": "Forearm_Right_EH1_ppc",
-			"weaponData":
-			{
-				"weaponId":
-				{
-					"id": "MWProjectileWeaponDataAsset:PPC"
-				},
-				"healthState": "Healthy"
-			}
-		},
-		{
-			"hardpointSlotId": "Forearm_Left_EH1_ppc",
-			"weaponData":
-			{
-				"weaponId":
-				{
-					"id": "MWProjectileWeaponDataAsset:PPC"
-				},
-				"healthState": "Healthy"
-			}
-		}
-	],
-	"weaponGroupInfo":
-	{
-		"weaponGroups": [
-			{
-				"hardpointSlotId": "Torso_Left_MH1_lrm15",
-				"bWeaponGroup1": true,
-				"bWeaponGroup2": true,
-				"bWeaponGroup3": false,
-				"bWeaponGroup4": false,
-				"bWeaponGroup5": false,
-				"bWeaponGroup6": false
-			},
-			{
-				"hardpointSlotId": "Torso_Right_MH1_lrm15",
-				"bWeaponGroup1": true,
-				"bWeaponGroup2": true,
-				"bWeaponGroup3": false,
-				"bWeaponGroup4": false,
-				"bWeaponGroup5": false,
-				"bWeaponGroup6": false
-			},
-			{
-				"hardpointSlotId": "Forearm_Right_BH2_ultraautocannon5",
-				"bWeaponGroup1": true,
-				"bWeaponGroup2": false,
-				"bWeaponGroup3": false,
-				"bWeaponGroup4": false,
-				"bWeaponGroup5": false,
-				"bWeaponGroup6": false
-			},
-			{
-				"hardpointSlotId": "Forearm_Left_BH2_ultraautocannon5",
-				"bWeaponGroup1": true,
-				"bWeaponGroup2": false,
-				"bWeaponGroup3": false,
-				"bWeaponGroup4": false,
-				"bWeaponGroup5": false,
-				"bWeaponGroup6": false
-			},
-			{
-				"hardpointSlotId": "Forearm_Right_EH1_ppc",
-				"bWeaponGroup1": true,
-				"bWeaponGroup2": false,
-				"bWeaponGroup3": true,
-				"bWeaponGroup4": false,
-				"bWeaponGroup5": false,
-				"bWeaponGroup6": false
-			},
-			{
-				"hardpointSlotId": "Forearm_Left_EH1_ppc",
-				"bWeaponGroup1": true,
-				"bWeaponGroup2": false,
-				"bWeaponGroup3": true,
-				"bWeaponGroup4": false,
-				"bWeaponGroup5": false,
-				"bWeaponGroup6": false
-			}
-		],
-		"chainFireGroups": []
-	},
-	"equipment":
-	{
-		"mechPartEquipment": [
-			{
-				"mechPart": "CenterTorso",
-				"slottedEquipment": [
-					{
-						"slotId": 0,
-						"slotTypeAssetId":
-						{
-							"id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
-						},
-						"equipmentData":
-						{
-							"equipmentId":
-							{
-								"id": "MWHeatSinkDataAsset:DoubleHeatSink"
-							},
-							"healthState": "Healthy"
-						}
-					},
-					{
-						"slotId": 1,
-						"slotTypeAssetId":
-						{
-							"id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
-						},
-						"equipmentData":
-						{
-							"equipmentId":
-							{
-								"id": "MWHeatSinkDataAsset:DoubleHeatSink"
-							},
-							"healthState": "Healthy"
-						}
-					}
-				]
-			},
-			{
-				"mechPart": "LeftTorso",
-				"slottedEquipment": [
-					{
-						"slotId": 0,
-						"slotTypeAssetId":
-						{
-							"id": "MWSlotTypeDataAsset:General_SlotType"
-						},
-						"equipmentData":
-						{
-							"equipmentId":
-							{
-								"id": "MWHeatSinkDataAsset:DoubleHeatSink"
-							},
-							"healthState": "Healthy"
-						}
-					},
-					{
-						"slotId": 1,
-						"slotTypeAssetId":
-						{
-							"id": "MWSlotTypeDataAsset:General_SlotType"
-						},
-						"equipmentData":
-						{
-							"equipmentId":
-							{
-								"id": "MWHeatSinkDataAsset:DoubleHeatSink"
-							},
-							"healthState": "Healthy"
-						}
-					},
-					{
-						"slotId": 2,
-						"slotTypeAssetId":
-						{
-							"id": "MWSlotTypeDataAsset:General_SlotType"
-						},
-						"equipmentData":
-						{
-							"equipmentId":
-							{
-								"id": "MWAmmoDataAsset:Lrm_AmmoEquipment"
-							},
-							"healthState": "Healthy"
-						}
-					}
-				]
-			},
-			{
-				"mechPart": "RightTorso",
-				"slottedEquipment": [
-					{
-						"slotId": 0,
-						"slotTypeAssetId":
-						{
-							"id": "MWSlotTypeDataAsset:General_SlotType"
-						},
-						"equipmentData":
-						{
-							"equipmentId":
-							{
-								"id": "MWHeatSinkDataAsset:DoubleHeatSink"
-							},
-							"healthState": "Healthy"
-						}
-					},
-					{
-						"slotId": 1,
-						"slotTypeAssetId":
-						{
-							"id": "MWSlotTypeDataAsset:General_SlotType"
-						},
-						"equipmentData":
-						{
-							"equipmentId":
-							{
-								"id": "MWAmmoDataAsset:AC5_Ultra_AmmoEquipment"
-							},
-							"healthState": "Healthy"
-						}
-					},
-					{
-						"slotId": 2,
-						"slotTypeAssetId":
-						{
-							"id": "MWSlotTypeDataAsset:General_SlotType"
-						},
-						"equipmentData":
-						{
-							"equipmentId":
-							{
-								"id": "MWAmmoDataAsset:AC5_Ultra_AmmoEquipment"
-							},
-							"healthState": "Healthy"
-						}
-					}
-				]
-			}
-		]
-	},
-	"installedTraits": []
+    "installedWeapons": [
+        {
+            "hardpointSlotId": "Torso_Left_MH1_lrm15",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWMissileWeaponDataAsset:Lrm15"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Torso_Right_BH1_ultraautocannon5",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWProjectileWeaponDataAsset:Ultraautocannon5"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Forearm_Right_EH1_ppc",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWProjectileWeaponDataAsset:Ppc"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Forearm_Right_EH2_ppc",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWProjectileWeaponDataAsset:Ppc"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Forearm_Left_EH1_ppc",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWProjectileWeaponDataAsset:Ppc"
+                },
+                "healthState": "Healthy"
+            }
+        },
+        {
+            "hardpointSlotId": "Forearm_Left_EH2_ppc",
+            "weaponData": {
+                "weaponId": {
+                    "id": "MWProjectileWeaponDataAsset:Ppc"
+                },
+                "healthState": "Healthy"
+            }
+        }
+    ],
+    "weaponGroupInfo": {
+        "weaponGroups": [
+            {
+                "hardpointSlotId": "Torso_Left_MH1_lrm15",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": false,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": true,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Torso_Right_BH1_ultraautocannon5",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": false,
+                "bWeaponGroup3": true,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Forearm_Right_EH1_ppc",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": true,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Forearm_Right_EH2_ppc",
+                "bWeaponGroup1": false,
+                "bWeaponGroup2": true,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Forearm_Left_EH1_ppc",
+                "bWeaponGroup1": true,
+                "bWeaponGroup2": false,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            },
+            {
+                "hardpointSlotId": "Forearm_Left_EH2_ppc",
+                "bWeaponGroup1": true,
+                "bWeaponGroup2": false,
+                "bWeaponGroup3": false,
+                "bWeaponGroup4": false,
+                "bWeaponGroup5": false,
+                "bWeaponGroup6": false
+            }
+        ],
+        "chainFireGroups": []
+    },
+    "equipment": {
+        "mechPartEquipment": [
+            {
+                "mechPart": "CenterTorso",
+                "slottedEquipment": [
+                    {
+                        "slotId": 0,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWHeatSinkDataAsset:DoubleHeatSink"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    },
+                    {
+                        "slotId": 1,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:EngineHeatsink_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWHeatSinkDataAsset:DoubleHeatSink"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    }
+                ]
+            },
+            {
+                "mechPart": "LeftTorso",
+                "slottedEquipment": [
+                    {
+                        "slotId": 0,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWHeatSinkDataAsset:DoubleHeatSink"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    },
+                    {
+                        "slotId": 1,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWHeatSinkDataAsset:DoubleHeatSink"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    },
+                    {
+                        "slotId": 2,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWAmmoDataAsset:Lrm_AmmoEquipment"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    }
+                ]
+            },
+            {
+                "mechPart": "RightTorso",
+                "slottedEquipment": [
+                    {
+                        "slotId": 0,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWHeatSinkDataAsset:DoubleHeatSink"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    },
+                    {
+                        "slotId": 1,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWAmmoDataAsset:AC5_Ultra_AmmoEquipment"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    },
+                    {
+                        "slotId": 2,
+                        "slotTypeAssetId": {
+                            "id": "MWSlotTypeDataAsset:General_SlotType"
+                        },
+                        "equipmentData": {
+                            "equipmentId": {
+                                "id": "MWAmmoDataAsset:AC5_Ultra_AmmoEquipment"
+                            },
+                            "healthState": "Healthy"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "installedTraits": []
 }

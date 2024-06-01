@@ -211,7 +211,7 @@
     "chassisFullName": "Longbow",
     "variantName": "LGB-8C_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:LGB-8C_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:LGB-8C_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Longbow_Icon_UIX.Longbow_Icon_UIX",
     "targetComponent": "/Game/DLC5/Objects/Mechs/Longbow/Target/Longbow_Target.Longbow_Target_C",
@@ -290,6 +290,6 @@
     "bXLEngine": false,
     "baseChassisCost": 5634175,
     "salvageShareCost": 32,
-    "bIsHeroMech": false,
+    "bIsHeroMech": true,
     "bIsDefaultVariant": false
 }

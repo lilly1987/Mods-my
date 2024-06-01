@@ -213,7 +213,7 @@
     "chassisFullName": "Highlander",
     "variantName": "HGN-HM_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:HGN-HM_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:HGN-HM_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Highlander_Icon_UIX.Highlander_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Highlander/Target/Highlander_Target.Highlander_Target_C",

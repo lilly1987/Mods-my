@@ -205,7 +205,7 @@
     "chassisFullName": "UrbanMech",
     "variantName": "UM-R60_Lilly",
     "defaultMech": {
-        "id": "MWMechLoadoutAsset:UM-R60_Loadout_Lilly"
+        "id": "MWMechLoadoutAsset:UM-R60_Loadout_Lilly_2"
     },
     "mechTexture": "/Game/UI/Textures/Battlemechs/Urbanmech_Icon_UIX.Urbanmech_Icon_UIX",
     "targetComponent": "/Game/Objects/Mechs/Urbanmech/Target/Urbanmech_Target.Urbanmech_Target_C",
@@ -288,6 +288,6 @@
     "bXLEngine": false,
     "baseChassisCost": 1077700,
     "salvageShareCost": 10,
-    "bIsHeroMech": false,
-    "bIsDefaultVariant": true
+    "bIsHeroMech": true,
+    "bIsDefaultVariant": false
 }
